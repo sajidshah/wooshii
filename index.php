@@ -294,13 +294,13 @@
 			</div>
 			
 			<div class="row">
-				<div class="col-sm-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">	
+				<div class="col-sm-6 col-sm-push-6  col-xs-12 text-center">
+					<img src="img/map.png" class="img-responsive"/>
+				</div>
+				<div class="col-sm-6 col-sm-pull-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">	
 					<h3>Choice</h3>
 					<h4>We have helped make hundreds of videos for companies large and small</h4>
 					<p>Donec auctor id tortor id iaculis. In posuere non velit eu gravida. Mauris vestibulum arcu et nunc dapibus faucibus. Suspendisse potenti. Duis sit amet rhoncus leo, ac aliquet turpis. Vivamus fringilla eros sit amet.</p>
-				</div>
-				<div class="col-sm-6 col-xs-12 text-center">
-					<img src="img/map.png" class="img-responsive"/>
 				</div>
 			</div>
 			
@@ -316,7 +316,7 @@
 				</div>
 			</div>
 			
-			<div class="col-xs-12 center"> <button class="button-3">Get Started Now</button></div>
+			<div class="col-xs-12 text-center"> <button class="button-3">Get Started Now</button></div>
 					
 		</div><!--/row-->
 	</div><!--/container-->
