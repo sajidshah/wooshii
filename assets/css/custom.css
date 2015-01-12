@@ -1,79 +1,3 @@
-@font-face {
-    font-family: brandonTextMedium;   /*brandon Text Medium*/
-    src: url("../fonts/BrandonText/HVDFonts-BrandonText-Medium.otf");
-    src: url("../fonts/BrandonText/HVDFonts-BrandonText-Medium.woff");
-}
-@font-face {
-    font-family: brandonTextBlack;   /*brandon Text Medium*/
-    src: url("../fonts/BrandonText/HVDFonts-BrandonText-Black.otf");
-    src: url("../fonts/BrandonText/HVDFonts-BrandonText-Black.woff");
-}
-@font-face {
-    font-family: brandonTextBold;   /*brandon Text Bold*/
-    src: url("../fonts/BrandonText/HVDFonts-BrandonText-Bold.otf");
-     src: url("../fonts/BrandonText/HVDFonts-BrandonText-Bold.woff");
-}
-@font-face {
-    font-family: KozGoPr6N-R;   /*KozGoPr6N-R Text Regular*/
-    src: url("../fonts/KozukaGothicPr6N/KozGoPr6N-Regular_0.otf");
-    src: url("../fonts/KozukaGothicPr6N/KozGoPr6N-Regular_0.woff");
-}
-@font-face {
-    font-family: KozGoPr6N-L;   /*KozGoPr6N-R Text Light*/
-    src: url("../fonts/KozukaGothicPr6N/KozGoPr6N-Light_0.otf");
-    src: url("../fonts/KozukaGothicPr6N/KozGoPr6N-Light_0.woff");
-}
-@font-face {
-    font-family: KozGoPr6N-M;   /*KozGoPr6N-R Text Medium*/
-    src: url("../fonts/KozukaGothicPr6N/KozGoPr6N-Medium_0.otf");
-    src: url("../fonts/KozukaGothicPr6N/KozGoPr6N-Medium_0.woff");
-}
-@font-face {
-    font-family: KozGoPr6N-B;   /*KozGoPr6N-R Text Bold*/
-    src: url("../fonts/KozukaGothicPr6N/KozGoPr6N-Bold_0.otf");
-    src: url("../fonts/KozukaGothicPr6N/KozGoPr6N-Bold_0.woff");
-}
-@font-face {
-    font-family: MyriadPro-Regular; 
-    src: url("../fonts/MyriadPro/MyriadPro-Regular.otf");
-    src: url("../fonts/MyriadPro/MyriadPro-Regular_0.woff");
-}
-@font-face {
-    font-family: MyriadPro-Light; 
-    src: url("../fonts/MyriadPro/MyriadPro-Light_3.otf");
-    src: url("../fonts/MyriadPro/MyriadPro-Light_3.woff");
-}
-@font-face {
-    font-family: MyriadPro-Bold; 
-    src: url("../fonts/MyriadPro/MyriadPro-Semibold_2.otf");
-    src: url("../fonts/MyriadPro/MyriadPro-Semibold_2.woff");
-}
-/*//////////////////////////// Raleway FONTS//////////////////////////////////*/
-@font-face {
-    font-family: relwayRegular;   /*relwayRegular-R Text Regular*/
-    src: url("../fonts/Raleway/Raleway-Regular.otf");
-    
-}
-
-
-	@font-face {
-    font-family: mosteserat-regular;   /*brandon Text Medium*/
-    src: url("fonts/Montserrat-Regular.ttf");
-	
-   
-	}
-	@font-face {
-	    font-family: comesinhand;   /*brandon Text Bold*/
-	    src: url("../fonts/comesinhandy.ttf");
-	    
-	}
-	
-	
-	@font-face {
-	    font-family:Raleway-Light;   /*brandon Text Bold*/
-	    src: url("../fonts/Raleway-Light.ttf");
-	}
-/*===========FONTS ======================*/
 body{
 	font-family : relwayRegular;
 }
@@ -249,7 +173,7 @@ ul.trusted_by
 	color:#ffffff;
 }
 .video-step{
-	background: url(../img/video-step.png)no-repeat center;
+	background: url(../img/video-step.png) no-repeat center;
 	min-height: 246px;
 	
 	}
@@ -375,7 +299,7 @@ ul.trusted_by
 	color : #ffffff;
 }
 .slider-next{
-	background: url(../img/slider-next.png)no-repeat center;
+	background: url(../img/slider-next.png) no-repeat center;
 	min-height: 16px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -383,7 +307,7 @@ ul.trusted_by
 	background-size: cover;
 }
 .slider-prev:before{
-	content : url(../img/slider-prev.png)no-repeat center;
+	content : url(../img/slider-prev.png);
 	min-height: 16px;
 	z-index : 999;
 }
@@ -402,7 +326,7 @@ ul.trusted_by
 	margin : 80px auto;
 }
 .case-video-1{
-	background: url(../img/slider-1.jpg)no-repeat center;
+	background: url(../img/slider-1.jpg) no-repeat center;
 	min-height: 246px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -410,7 +334,7 @@ ul.trusted_by
 	background-size: cover;
 }
 .case-video-2{
-	background: url(../img/slider-2.jpg)no-repeat center;
+	background: url(../img/slider-2.jpg) no-repeat center;
 	min-height: 246px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -418,7 +342,7 @@ ul.trusted_by
 	background-size: cover;
 }
 .case-video-3{
-	background: url(../img/slider-3.jpg)no-repeat center;
+	background: url(../img/slider-3.jpg) no-repeat center;
 	min-height: 246px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -426,7 +350,7 @@ ul.trusted_by
 	background-size: cover;
 }
 .case-video-4{
-	background: url(../img/slider-4.jpg)no-repeat center;
+	background: url(../img/slider-4.jpg) no-repeat center;
 	min-height: 246px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -434,7 +358,7 @@ ul.trusted_by
 	background-size: cover;
 }
 .case-video-5{
-	background: url(../img/slider-5.jpg)no-repeat center;
+	background: url(../img/slider-5.jpg) no-repeat center;
 	min-height: 246px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -442,7 +366,7 @@ ul.trusted_by
 	background-size: cover;
 }
 .case-video-6{
-	background: url(../img/slider-6.jpg)no-repeat center;
+	background: url(../img/slider-6.jpg) no-repeat center;
 	min-height: 246px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -521,7 +445,7 @@ p{
         position:absolute;
         top:246px;
         font-family : KozGoPr6N-M;
-        font-family : brandonTextMedium !imporatant;
+        font-family : brandonTextMedium !important;
         color : #ffffff;
         font-size : 16px;
 	}
@@ -587,7 +511,7 @@ p{
 		background: url('../img/interiorpage/header-texture.png'); 
 	}
 .feature-video-1{
-	background: url(../img/interiorpage/featured-video-1.jpg)no-repeat center;
+	background: url(../img/interiorpage/featured-video-1.jpg) no-repeat center;
 	min-height: 410px;
 	 -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -596,7 +520,7 @@ p{
 }
 
 .feature-video-2{
-	background: url(../img/interiorpage/featured-video-2.jpg)no-repeat center;
+	background: url(../img/interiorpage/featured-video-2.jpg) no-repeat center;
 	min-height: 410px;
 	 -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -605,7 +529,7 @@ p{
 }
 
 .feature-video-3{
-	background: url(../img/interiorpage/featured-video-3.jpg)no-repeat center;
+	background: url(../img/interiorpage/featured-video-3.jpg) no-repeat center;
 	min-height: 410px;
 	 -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -666,7 +590,7 @@ p{
 	background : #1ac9c7;
 	border : none;
 	border : 3px solid #1ac9c7;
-	color : #fffffff;
+	color : #ffffff;
 }
 .video-carousal-controls .btn:hover .fa{
 	color : #FFFFFF;

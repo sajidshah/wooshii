@@ -1953,3 +1953,6 @@ margin-bottom : 2%;
 	overflow:hidden;
 	background:url("assets/img/inter-page.jpg") no-repeat;
 }
+
+
+.why_choose > .row > div {margin-bottom:70px; }

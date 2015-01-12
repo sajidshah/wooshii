@@ -211,39 +211,39 @@
 	
 <div id="gradient-bg">	
 	<div class="container" ><!--container-->
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="row ">
+			<div class="col-sm-12 col-xs-10 col-xs-offset-1 col-sm-offset-0">
 				<h1>What our customers say</h1>
 			</div>
 			
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<div class="col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
 				
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 tab"><img src="img/coma.png"/></div>
+				<div class="col-xs-1 tab"><img src="img/coma.png"/></div>
 				
-				<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">	
+				<div class="col-xs-11">	
 					<p class="light">
 					Before we found Wooshii, we spent over $10,000 on video production with pure garbage being generated. 
 					On Wooshii we spent $1,500 on a video and I think we hit it out of the park. I love Wooshii!
 					</p>
 				</div>
 						
-						<div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-							<img src="img/patrick.png"/>
-							
-						</div>
+				<div  class="col-xs-2">
+					<img src="img/patrick.png"/>
+					
+				</div>
 						
-						<div  class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+						<div  class="col-xs-10">
 							<p class="mike">Patrick Hankinson, <br/> Founder & CEO, Tether</p>
 							
 						</div>
 				
 			</div>
 			
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<div class="col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
 				
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 tab"><img src="img/coma.png"/></div>	
+				<div class="col-xs-1 tab"><img src="img/coma.png"/></div>	
 				
-				<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+				<div class="col-xs-11">
 					<p class="light">
 					Before we found Wooshii, we spent over $10,000 on video production with pure garbage being generated. 
 					On Wooshii we spent $1,500 on a video and I think we hit it out of the park. I love Wooshii!
@@ -252,15 +252,15 @@
 				</div>
 					
 						
-						<div  class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-							<img src="img/mike.png"/>
-							
-						</div>
+				<div  class="col-xs-2">
+					<img src="img/mike.png"/>
+					
+				</div>
 						
-						<div  class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-							<p class="mike">Mike Leavy,   <br/> Learning Technology Lead at Virgin Media</p>
-							
-						</div>
+				<div  class="col-xs-10">
+					<p class="mike">Mike Leavy,   <br/> Learning Technology Lead at Virgin Media</p>
+					
+				</div>
 					
 			</div>
 			
@@ -269,66 +269,54 @@
 	
 </div>	
 	<div class="container"><!--container-->
-		<div class="row full"><!--row-->
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h1>Why Choose Wooshii</h1>
+		<div class="row full why_choose"><!--row-->
+			<div class="col-sm-12 col-xs-10 col-xs-offset-1 col-sm-offset-0"> <h1>Why Choose Wooshii</h1> </div>
+			
+			<div class="row">
+				<div class="col-sm-6 col-sm-push-6 col-xs-12 text-center ">
+					<img src="img/clipboard.png" class="img-responsive"/>
+				</div>
+				<div class="col-sm-6 col-sm-pull-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">
+					<h3>Quality</h3>
+					<h4>We have helped make hundreds of videos for companies large and small</h4>
+					<p>Donec auctor id tortor id iaculis. In posuere non velit eu gravida. Mauris vestibulum arcu et nunc dapibus faucibus. Suspendisse potenti. Duis sit amet rhoncus leo, ac aliquet turpis. Vivamus fringilla eros sit amet.</p>
+				</div>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><!--leftside-->
-				<h3>Quality</h3>
-					<h4>We have helped make hundreds of videos for companies large and small</h4>
-						<p>
-							Donec auctor id tortor id iaculis. In posuere non velit eu gravida. 
-							Mauris vestibulum arcu et nunc dapibus faucibus. Suspendisse potenti. 
-							Duis sit amet rhoncus leo, ac aliquet turpis. Vivamus fringilla eros sit amet.
-						</p>
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 image-center">
-								<img src="img/quality.png" class="img-responsive"/>
-							</div>
-							
-							
-							<h3>Choice</h3>
-					<h4>We have helped make hundreds of videos for companies large and small</h4>
-						<p>
-							Donec auctor id tortor id iaculis. In posuere non velit eu gravida. 
-							Mauris vestibulum arcu et nunc dapibus faucibus. Suspendisse potenti. 
-							Duis sit amet rhoncus leo, ac aliquet turpis. Vivamus fringilla eros sit amet.
-						</p>
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 image-center">
-								<img src="img/safe.png" class="img-responsive"/>
-							</div>
-						
-			</div><!--/leftside-->
-			
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><!--rightside-->
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clipboard">
-								<img src="img/clipboard.png" class="img-responsive"/>
+			<div class="row">
+				<div class="col-sm-6 col-xs-12 text-center">
+					<img src="img/quality.png" class="img-responsive"/>
 				</div>
-				
-				<h3>Control</h3>
+				<div class="col-sm-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">
+					<h3>Control</h3>
 					<h4>You Choose your budget & pick your creator. They are paid only once you have your video.</h4>
-						<p>
-							Donec auctor id tortor id iaculis. In posuere non velit eu gravida. 
-							Mauris vestibulum arcu et nunc dapibus faucibus. Suspendisse potenti. 
-							Duis sit amet rhoncus leo, ac aliquet turpis. Vivamus fringilla eros sit amet.
-						</p>
-						
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 map">
-								<img src="img/map.png" class="img-responsive"/>
+					<p>Donec auctor id tortor id iaculis. In posuere non velit eu gravida. Mauris vestibulum arcu et nunc dapibus faucibus. Suspendisse potenti. Duis sit amet rhoncus leo, ac aliquet turpis. Vivamus fringilla eros sit amet.</p>
 				</div>
-				
-				<h3>Safe and Secure</h3>
-					<h4>You Choose your budget & pick your creator. They are paid only once you have your video.</h4>
-						<p>
-							Donec auctor id tortor id iaculis. In posuere non velit eu gravida. 
-							Mauris vestibulum arcu et nunc dapibus faucibus. Suspendisse potenti. 
-							Duis sit amet rhoncus leo, ac aliquet turpis. Vivamus fringilla eros sit amet.
-						</p>
-						
-			</div><!--/rightside-->
+			</div>
 			
-					<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center">
-						<button class="button-3">Get Started Now</button>
-					</div>
+			<div class="row">
+				<div class="col-sm-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">	
+					<h3>Choice</h3>
+					<h4>We have helped make hundreds of videos for companies large and small</h4>
+					<p>Donec auctor id tortor id iaculis. In posuere non velit eu gravida. Mauris vestibulum arcu et nunc dapibus faucibus. Suspendisse potenti. Duis sit amet rhoncus leo, ac aliquet turpis. Vivamus fringilla eros sit amet.</p>
+				</div>
+				<div class="col-sm-6 col-xs-12 text-center">
+					<img src="img/map.png" class="img-responsive"/>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-6 col-xs-12 text-center">
+					<img src="img/safe.png" class="img-responsive"/>
+				</div>
+			
+				<div class="col-sm-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">	
+					<h3>Safe and Secure</h3>
+					<h4>You Choose your budget & pick your creator. They are paid only once you have your video.</h4>
+					<p>Donec auctor id tortor id iaculis. In posuere non velit eu gravida. Mauris vestibulum arcu et nunc dapibus faucibus. Suspendisse potenti. Duis sit amet rhoncus leo, ac aliquet turpis. Vivamus fringilla eros sit amet.</p>
+				</div>
+			</div>
+			
+			<div class="col-xs-12 center"> <button class="button-3">Get Started Now</button></div>
 					
 		</div><!--/row-->
 	</div><!--/container-->
