@@ -153,17 +153,17 @@
     <h1 class="h1">How it works</h1>
    </div>
 
-   <div class="col-md-4 col-sm-4 col-xs-12"><!--blog1 -->
-    <div class="col-md-12 col-sm-12 col-xs-12 centered">
-     <img src="img/blog1.png" class="img-responsive"/>
+   <div class="col-sm-4 col-xs-12"><!--blog1 -->
+   	<div class="col-xs-12 centered">
+    	<img src="img/blog1.png" class="img-responsive"/>
     </div>
 
-    <div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="col-xs-12">
       <h2 class="h2"><span class="p1"> 1.</span>  Describe your project</h2>
     </div>
      
-    <div class="col-md-12 col-sm-12 col-xs-12">
-     <p class="p">Choose your video-maker/animator. They will make your video/animation</p>
+    <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
+    	<p class="p">Write a short explanation about your  video or animation project Set your budget</p>
     </div>
 
    </div><!--/blog1-->
@@ -178,8 +178,8 @@
       <h2 class="h2"><span class="p1"> 2.</span> Receive proposals</h2>
      </div>
      
-     <div class="col-md-12 col-sm-12 col-xs-12">
-      <p class="p">Write a short explanation about your  video or animation project Set your budget</p>
+     <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
+	     <p class="p">We will send yout project to our video makers for free You will receive propsals</p>
      </div>
    </div><!--/blog2-->
 
@@ -192,7 +192,8 @@
       <h2 class="h2"><span class="p1"> 3.</span> Get your video</h2>
     </div>
      
-    <div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
+     
      <p class="p">Choose your video-maker/animator. They will make your video/animation</p>
     </div>
 
@@ -209,7 +210,7 @@
 <div id="gradient-bg">	
 	<div class="container" ><!--container-->
 		<div class="row ">
-			<div class="col-sm-12 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+			<div class="col-sm-12 col-xs-8 col-xs-offset-2 col-sm-offset-0">
 				<h1>What our customers say</h1>
 			</div>
 			
@@ -313,7 +314,9 @@
 				</div>
 			</div>
 			
-			<div class="col-xs-12 text-center"> <button class="button-3">Get Started Now</button></div>
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center">
+    <button class="button-3">Get Started Now</button>
+   </div>
 					
 		</div><!--/row-->
 	</div><!--/container-->
@@ -321,12 +324,12 @@
 <div class="bg-vedio">	
 	<div class="container"><!--container-->
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-xs-12">
 				<h1>Recent projects</h1>
-					<h3>See examples of recent projects completed by our community.</h3>
+				<h3>See examples of recent projects completed by our community.</h3>
 			</div>
 			
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--vedios-->
+			<div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2"><!--vedios-->
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg ">
 					<img src="img/1.jpg" class="img-responsive"/>
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip">
