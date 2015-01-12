@@ -13,6 +13,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <!-- ======== / META TAGS ======== -->
 <!-- ======== STYLESHEETS ======== -->
+			<!-- GOOGLE FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+					<!-- GOOGLE FONTS -->
 		<link rel="stylesheet" href="style.css" type="text/css" />
 		<link rel="stylesheet" href="assets/css/lightbox.css" type="text/css" />
 		<link rel="stylesheet" href="assets/css/jquery.bxslider.css" type="text/css" />
@@ -59,8 +64,8 @@
 				<nav id="desktop-menu" class="hidden-sm hidden-xs">
 					<ul>
 						<!-- <li><a href="#sec01">CASE STUDIES</a></li> -->
-						<li><a href="#sec03">I NEED VIDEO</a></li>
-						<li><a href="#sec02">I MAKE VIDEO</a></li>
+						<li><a href="#sec02">I NEED VIDEO</a></li>
+						<li><a href="#sec03">I MAKE VIDEO</a></li>
 						
 						<li><a href="#sec04">LOGIN</a></li>
 					</ul>
@@ -121,7 +126,7 @@
 		
 	</header>
 <!-- ======== / HEADER ======== -->
-	<div class="backgd">
+	<div class="backgd" id="sec#02">
 		<div class="container logos">
 			<div class="row"><!--row-->
 				<p class="trusted">We are trusted by</p>
@@ -143,238 +148,66 @@
 	</div>
 	
 	
-	<div class="container-fluid"><!--container-->
-	
-		<div class="row"><!--row-->
-			
-			<div class="col-md-12 col-sm-12 col-xs-12">
-				<h1 class="h1">How it works</h1>
-			</div>
-			<div class="col-md-4 col-sm-4 col-xs-12 mar"><!--blog1-->
-				<div class="col-md-12 col-sm-12 col-xs-12 bullet">
-					<img src="img/bulet.png"/>
-					<img src="img/bulet.png"/>
-					<img src="img/bulet.png"/>
-				</div>
-				
-				<div class="col-md-12 col-sm-12 col-xs-12 cont">
-					<div class="col-md-6 col-sm-6 col-xs-6 pad" >
-						<img src="img/animation.png" class="img-responsive"/>
-					</div>
+	<div class="container"><!--container-->
+ 
+  <div class="row" id="more"><!--row-->
+   
+   <div class="col-md-12 col-sm-12 col-xs-12" >
+    <h1 class="h1">How it works</h1>
+   </div>
 
-					<div class="col-md-6 col-sm-6 col-xs-6 pad" >
-						<img src="img/video.png" class="img-responsive"/>
-					</div>
-					
-					<div class="col-md-4 col-sm-4 col-xs-4">
-						<img src="img/calender.png"/><span class="span">4 days</span>
-					</div>
+   <div class="col-md-4 col-sm-4 col-xs-12"><!--blog1 -->
+    <div class="col-md-12 col-sm-12 col-xs-12 centered">
+     <img src="img/blog1.png" class="img-responsive"/>
+    </div>
 
-					<div class="col-md-4 col-sm-4 col-xs-4">
-						<img src="img/vedio-ani.png"/><span class="span">Animation</span>
-					</div>
-					
-					<div class="col-md-4 col-sm-4 col-xs-4">
-						<img src="img/gift.png"/><span class="span">$ 1860</span>
-					</div>
-					
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<h4>project Description</h4>
-					</div>
-					
-					<div class="col-md-12 col-sm-12 col-xs-12 txt">
-						<p>Aenean dignissim dictum metus ac tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 			                          Pellentesque habitant 
-						morbi tristique senectus et netus et malesuada</p>
-					</div>
-					
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<h2><span class="p1">1.</span> Describe your project</h2>
-					</div>
-					
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<p class="p">Write a short explanation about your  video or animation project Set your budget</p>
-					</div>
-		
-				</div><!--/blog1-->
-			</div>
-			
-			<div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
-					<div class="col-md-12 col-sm-12 col-xs-12 bullet"><!--blog2-->
-						<img src="img/bulet.png"/>
-						<img src="img/bulet.png"/>
-						<img src="img/bulet.png"/>
-					
-					</div>
-					
-					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 bullet">
-						<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 proposal">
-							<p>Received 215 Proposals</p>
-						</div>
-						
-						<div class="col-md-2 col-sm-2 col-xs-2 col-lg-1 ">
-							<img src="img/profile.png" class="profi"/>
-						</div>
-						
-						<div class="col-md-8 col-sm-8 col-xs-8 col-lg-7 no ">
-							<p class="hi">Hi, please see my proposal</p>
-							<img src="img/star.png" class="img-responsive"/>
-							<img src="img/star.png" class="img-responsive"/>
-							<img src="img/star.png" class="img-responsive"/>
-							<img src="img/star.png" class="img-responsive"/>
-							<img src="img/star.png" class="img-responsive"/>
-							<span class="project">12 Projects</span>  
-							  <span class="project"> 23 recommended</span>
-						</div>
-						
-						<div class="col-md-2 col-sm-2 col-xs-2 col-lg-4 no moob">
-							<img src="img/true.png" class="profi img-responsive"/>
-							<img src="img/false.png" class="profi img-responsive"/>
-						</div>
-					</div>
-					
-					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 bullet">
-						
-						
-						<div class="col-md-2 col-sm-2 col-xs-2 col-lg-1 bg1 ">
-							<img src="img/profile.png" class="profi pe"/>
-						</div>
-						
-						<div class="col-md-8 col-sm-8 col-xs-8 col-lg-7 no bg1">
-							<p class="hi">Hi, please see my proposal</p>
-							<img src="img/star.png"/>
-							<img src="img/star.png"/>
-							<img src="img/star.png"/>
-							<img src="img/star.png"/>
-							<img src="img/star.png"/>
-							<span class="project">12 Projects</span>  
-							  <span class="project"> 23 recommended</span>
-						</div>
-						
-						<div class="col-md-2 col-sm-2 col-xs-2 col-lg-4 no bg1 pading-bottom moob">
-							<img src="img/true.png" class="profi"/>
-							<img src="img/false.png" class="profi"/>
-						</div>
-					</div>
-					
-					
-					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 bullet">
-						
-						<div class="col-md-2 col-sm-2 col-xs-2 col-lg-1 ">
-							<img src="img/profile.png" class="profi"/>
-						</div>
-						
-						<div class="col-md-8 col-sm-8 col-xs-8 col-lg-7 no ">
-							<p class="hi">Hi, please see my proposal</p>
-							<img src="img/star.png"/>
-							<img src="img/star.png"/>
-							<img src="img/star.png"/>
-							<img src="img/star.png"/>
-							<img src="img/star.png"/>
-							<span class="project">12 Projects</span>  
-							  <span class="project"> 23 recommended</span>
-						</div>
-						
-						<div class="col-md-2 col-sm-2 col-xs-2 col-lg-4 no ">
-							<img src="img/true.png" class="profi"/>
-							<img src="img/false.png" class="profi"/>
-						</div>
-					</div>
-					
-					
-					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 bullet">
-						
-						
-						<div class="col-md-2 col-sm-2 col-xs-2 col-lg-1 bg1">
-							<img src="img/profile.png" class="profi pe"/>
-						</div>
-						
-						<div class="col-md-8 col-sm-8 col-xs-8 col-lg-7 no bg1">
-							<p class="hi">Hi, please see my proposal</p>
-							<img src="img/star.png"/>
-							<img src="img/star.png"/>
-							<img src="img/star.png"/>
-							<img src="img/star.png"/>
-							<img src="img/star.png"/>
-							<span class="project">12 Projects</span>  
-							  <span class="project"> 23 recommended</span>
-						</div>
-						
-						<div class="col-md-2 col-sm-2 col-xs-2 col-lg-4 no bg1 pading-bottom moob">
-							<img src="img/true.png" class="profi"/>
-							<img src="img/false.png" class="profi"/>
-						</div>
-					</div>
-					
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<h2 class="h2"><span class="p1"> 2.</span> Receive proposals</h2>
-					</div>
-					
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<p class="p">We wil send yout project to our video makers for free You will receive proposals</p>
-					</div>
-					
-				
-			</div><!--/blog2-->
-			
-			
-			<div class="col-md-4 col-sm-4 col-xs-12 col-lg-4">
-					<div class="col-md-12 col-sm-12 col-xs-12 bullet"><!--blog3-->
-						<img src="img/bulet.png"/>
-						<img src="img/bulet.png"/>
-						<img src="img/bulet.png"/>
-					
-					</div>
-					
-					<div class="col-lg-12  col-sm-12 col-md-12 col-xs-12 cont">
-						<p class="download">Download your final video</p>
-						
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								<img src="img/play.png" class="img-responsive"/>
-							</div>
-						
-						<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6" >
-						
-							<p class="awe">Awesome animation</p>
-							
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mb">
-							<img src="img/mb.png"/><span>127mb</span>
-						</div>
-						
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 mb">
-							<img src="img/mb.png"/><span>127mb</span>
-						</div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 no-pad" >
-							<p class="txt2">Hi, thanks for approved my video
-								please download this video and enjoy with your project
-							</p>
-						</div>
-						
-						</div>
-						
-						<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 dowld-btn">
-						<a href="#">Download your video</a>
-					</div>
-					
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<h2 class="h2"><span class="p1"> 3.</span> Get your video</h2>
-					</div>
-					
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<p class="p">Choose your video-maker/animator. They will make your video/animation</p>
-					</div>
-					
-				</div>
-				
-			</div>
-		
-			</div><!--/blog3-->
-			
-			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center">
-						<button class="button-3">Get Started Now</button>
-					</div>
-		</div><!--/row-->
-		
-	</div><!--/container-->
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <h2 class="h2"><span class="p1"> 1.</span>  Describe your project</h2>
+    </div>
+     
+    <div class="col-md-12 col-sm-12 col-xs-12">
+     <p class="p">Choose your video-maker/animator. They will make your video/animation</p>
+    </div>
+
+   </div><!--/blog1-->
+
+
+   <div class="col-md-4 col-sm-4 col-xs-12"><!--blog2 -->
+    <div class="col-md-12 col-sm-12 col-xs-12 centered">
+     <img src="img/blog2.png" class="img-responsive"/>
+    </div>
+
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <h2 class="h2"><span class="p1"> 2.</span> Receive proposals</h2>
+     </div>
+     
+     <div class="col-md-12 col-sm-12 col-xs-12">
+      <p class="p">Write a short explanation about your  video or animation project Set your budget</p>
+     </div>
+   </div><!--/blog2-->
+
+   <div class="col-md-4 col-sm-4 col-xs-12"><!--blog3 -->
+    <div class="col-md-12 col-sm-12 col-xs-12 centered">
+     <img src="img/blog3.png" class="img-responsive"/>
+    </div>
+
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <h2 class="h2"><span class="p1"> 3.</span> Get your video</h2>
+    </div>
+     
+    <div class="col-md-12 col-sm-12 col-xs-12">
+     <p class="p">Choose your video-maker/animator. They will make your video/animation</p>
+    </div>
+
+   </div><!--/blog3-->
+     
+     
+   <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center">
+    <button class="button-3">Get Started Now</button>
+   </div>
+  </div><!--/row-->
+  
+ </div><!--/container-->
 	
 <div id="gradient-bg">	
 	<div class="container" ><!--container-->
