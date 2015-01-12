@@ -1,0 +1,539 @@
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+	#logo-container,#interior-logo-container {
+		margin-top: 14px;
+		margin-left:45px;
+	}
+	#home {
+		height: 80%;
+	}
+		#home .tb .tb-cell h1 {
+		
+		font-size: 140px;
+		
+	}
+	#home h6 {
+		font-size: 29px;
+		
+	}
+	.push-left {
+		float: left;
+	}
+	#chose_whooshii .seprator
+	{
+		margin-bottom : 80px;
+	}
+	#trusted .trusted_by_title
+	{
+		margin-top:20px;
+		display : inline;
+		float:left;
+	}
+	#trusted {
+	
+	min-height:104px;
+	max-height:auto;
+	}
+	
+	.trusted_by li 
+	{
+		float:none;
+		display : inline-block;
+		margin: 6px 15px;
+	}
+	
+	.button-1,.button-2,.button-3,.button-4{
+		padding: 12px 30px;
+		display: inline-block;
+		margin:7px;
+	}
+	#sec05 .glyphicon-chevron-left{
+	  left: -27%;
+	}
+	#sec05 .glyphicon-chevron-right{
+		left: 120%;
+	}
+	.push-left {
+		float: left;
+	}
+	.parallax {
+		background-attachment: fixed !important;
+		background-size: cover !important;
+	}
+	#featured-video-carousel .glyphicon-chevron-right{
+		left: 120%;
+	}
+	.featured-content .heading{
+		font-size : 14px;
+	}
+	/*FOR INTERIOR PAGE*/
+	#interior-logo-container {
+		margin-top:15px;
+		margin-left : 15px;
+	}
+	.featured-content p{
+		
+		font-size : 12px;
+	}
+	
+	.pageTwo .jon-died .img:after{
+		left: 100%;
+		top: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(255, 255, 255, 0);
+		border-left-color: #ffffff;
+		border-width: 7px;
+		margin-top: -7px;
+		z-index: 999;
+	}
+	.pageTwo .jon-died .description {
+		margin : 36px !important;
+	}
+	/*for background video */
+	.header-unit {
+		  height: 100%;
+		  position : absolute;
+		  width : 100%
+		}
+		#video-container {
+			position: absolute;
+		}
+		#video-container {
+			top:0%;
+			left:0%;
+			height:80%;
+			width:100%;
+			overflow: hidden;
+		}
+		video {
+			position:absolute;
+			z-index:0;
+		}
+		video.fillWidth {
+			width: 100%;
+		}
+	/*For background Video 	*/
+ }
+
+@media (min-width: 993px) and (max-width: 1199px) {
+	.button-1,.button-2,.button-3,.button-4{
+		padding: 12px 30px;
+		display: inline-block;
+		margin:7px;
+	}
+	.header-unit {
+		  height: 88%;
+		  position : absolute;
+		  width : 92%;
+		}
+		#home{
+			height : 79%;
+		}
+		#video-container {
+			position: absolute;
+		}
+		#video-container {
+			top:0%;
+			left:0%;
+			height:90%;
+			width:110%;
+			overflow: hidden;
+		}
+		video {
+			position:absolute;
+			z-index:0;
+		}
+		video.fillWidth {
+			width: 120%;
+		}
+	
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	.col-md-centered{
+		    /*float: none;*/
+		    margin: 0 auto !important;
+		    text-align: center;
+		}
+	#logo-container {
+		margin-top: 14px;
+		margin-left:45px;
+	}
+	.push-left {
+		float: none;
+	}
+	#home {
+		height: 70%;
+	}
+	
+	#home .tb .tb-cel h1 {
+		
+		font-size: 48px;
+	}
+	#home h6 {
+		font-size: 29px;
+	}
+	#chose_whooshii .seprator
+	{
+		margin-bottom : 120px;
+	}
+	#trusted {
+	
+	min-height:104px;
+	max-height : auto;
+	}
+	
+	#trusted .trusted_by_title
+	{
+		margin-top:20px;
+		display : block;
+		float:none;
+	}
+	
+	.trusted_by li 
+	{
+		float:none;
+		display : inline-block;
+		margin: 6px 15px;
+	}
+	.button-1,.button-2,.button-3,.button-4{
+		padding: 12px 30px;
+		display: inline-block;
+		margin:7px;
+	}
+	#sec05 .glyphicon-chevron-left{
+	  left: -27%;
+	  z-index: 5;
+	  display: inline-block;
+	}
+	#sec05 .glyphicon-chevron-right{
+		left: 120%;
+	}
+		
+	.featured-content .heading{
+		font-size : 14px;
+	}
+	
+	.parallax {
+		background-attachment: fixed !important;
+		background-size: cover !important;
+	}
+	.featured-content p{
+		
+		font-size : 14px;
+	}
+	
+	.pageTwo .jon-died .img:after{
+		left: 100%;
+		top: 60%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(255, 255, 255, 0);
+		border-left-color: #ffffff;
+		border-width: 7px;
+		margin-top: -7px;
+		z-index: 3;
+	}
+	.pageTwo .jon-died .description {
+		margin : 36px !important;
+	}
+	#interior-logo-container {
+		margin-top:15px;
+		margin-left : 15px;
+	}
+	/*for background video */
+	.header-unit {
+		  height: 90%;
+		  position : absolute;
+		  width : 100%
+		}
+		#video-container {
+			position: absolute;
+		}
+		#video-container {
+			top:0%;
+			left:0%;
+			height:80%;
+			width:120%;
+			overflow: hidden;
+		}
+		video {
+			position:absolute;
+			z-index:0;
+		}
+		video.fillWidth {
+			width: 120%;
+		}
+	/*For background Video 	*/
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#logo-container {
+		margin-top: 14px;
+		margin-left:45px;
+	}
+	#home {
+		/*height: 100%;*/
+	} 
+
+	#home .tb .tb-cell h1 {
+		
+		font-size: 36px;
+	}
+	
+	#home h6 {
+		font-family : MyriadPro-Light;
+		font-size: 24px;
+		margin-bottom: 40px;
+		font-weight: normal;
+	}
+	#chose_whooshii .seprator
+	{
+		margin-bottom : 60px;
+	}
+	#trusted {
+	
+	height:auto;
+	}
+	.featured-content .heading{
+		font-size : 14px;
+	}
+	
+	#trusted .trusted_by_title
+	{
+		margin-top:20px;
+		display : block;
+		float:none;
+	}
+	.button-1,.button-2,.button-3,.button-4{
+		padding: 12px 30px;
+		display: inline-block;
+		margin:7px;
+	}
+	
+	#sec05 .glyphicon-chevron-left{
+	  left: 0%;
+	}
+	#sec05 .glyphicon-chevron-right{
+		left: 100%;
+	}
+	
+	.parallax {
+		background-attachment: fixed !important;
+		/*background-size: cover !important;*/
+	}
+	.featured-content p{
+		
+		font-size : 14px;
+	}
+	#interior-logo-container {
+		margin-top:15px;
+		margin-left : 15px;
+	}
+	.pageTwo .jon-died .img:after{
+		left: 100%;
+		top: 60%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(255, 255, 255, 0);
+		border-left-color: #ffffff;
+		border-width: 7px;
+		margin-top: -7px;
+		z-index: 3;
+	}
+		.pageTwo .jon-died .description {
+			margin : 36px !important;
+		}
+		.col-sm-centered{
+		    float: none;
+		    margin: 0 auto !important;
+		    text-align: center;
+		}
+		.trusted_by li{
+		float:none;
+		display : inline-block;
+		text-align:center;
+		
+		}
+		.img-arrow{
+			margin-top:20px;
+		}
+
+ }
+
+@media (max-width: 480px) {
+	h1{
+		font-size : 24px !important;
+	}
+	
+	h3{
+		line-height: 30px;
+	}
+	#logo-container,#interior-logo-container {
+		margin-top: 23px;
+		margin-left:4px;
+	}
+	#logo-container img ,#interior-logo-container img{
+		width :150px;
+	}
+	#home,#interior-home {
+		/*height: 150%;*/
+		/*background-size: 200% !important;*/
+		background-repeat: no-repeat;
+	} 
+	#home img{
+		padding-top:50px;
+	}
+	.col-xs-centered{
+    float: none;
+    margin: 0 auto !important;
+    text-align: center;
+}
+	#home .tb .tb-cell h1,#interior-home .tb .tb-cell h1 {
+		
+		font-size: 24px;
+	}
+	#home h6, #interior-home h3{
+	font-size: 18px;
+	margin-bottom: 20px;
+	}
+	#sec01 #controlls .row .title,#sec01 #controlls .row img{
+		margin:0 auto ;
+		text-align : auto; 
+	}
+	#chose_whooshii .seprator
+	{
+		margin-bottom : 55px;
+	}
+	
+	#trusted .trusted_by_title
+	{
+		margin-top:20px auto;
+		display : block;
+		float:none;
+	}
+	.trusted_by li 
+	{
+		margin: 6px auto;
+	}
+	.button-1,.button-2,.button-3,.button-4 {
+		padding: 12px 30px;
+		display: block;
+		margin:7px auto;
+	}
+	
+	#sec05 .glyphicon-chevron-left{
+	  left: 0%;
+	}
+	#sec05 .glyphicon-chevron-right{
+		left: 94%;
+	}
+	.trusted_by{
+		margin-bottom : 30px;
+		display : block;
+		overflow : hidden;
+	}
+	.trusted_by li{
+		float:none;
+		display : inline-block;
+		text-align:center;
+		
+		}
+		.trusted_by li img{
+			width : 75px;
+		}
+	#trusted {
+	
+	height:auto;
+	}
+	#sec05 #case-menu ul li 
+	{
+		margin-left :6px !important;
+		margin-right :6px !important;
+	}	
+	#sec05 #case-menu ul li a
+	{
+		font-size : 9px !important;
+	}
+	#foot-page #case-menu ul li a
+	{
+		border-right : 2px solid #b8b8b8;
+	}
+	#foot-page #case-menu ul li:last-child a{
+		border :none !important;
+	}
+	.parallax {
+		background-attachment: fixed !important;
+		/*background-size: cover !important;*/
+	}
+	
+	
+	/*FOR INTERIOR PAGE*/
+	#interior-home h1{
+		margin-top:80px;
+	}
+	.featured-content .heading{
+		font-size : 12px;
+	}
+	.featured-content p{
+		
+		font-size : 12px;
+	}
+	
+	.pageTwo .jon-died .img:after {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(255, 255, 255, 0);
+		border-top-color: #ffffff;
+		border-width: 14px;
+		margin-left: -14px;
+	}
+	
+	.pageTwo .jon-died .description {
+		padding : 10px !important;
+		margin : 0px !important;
+	}
+	.gap-3 {
+		padding: 20px 0 !important;
+	}
+	#interior-logo-container {
+		margin-top:28px;
+		margin-left : 15px;
+	}
+	#miicard-video .miicard-video{
+		min-height:150px !important;
+	}
+	.video-texture{
+		min-height : 150px !important;
+	}
+	#miicard-video img{
+		margin: 55px auto !important;
+	}
+	.img-arrow{
+			margin-top:20px;
+		}
+}

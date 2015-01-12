@@ -1,0 +1,19 @@
+.text-work {
+	opacity: 1;
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	top: 0;
+}
+
+#main-menu {
+	opacity: 1;
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+}
+
+.team-network {
+	opacity: 1;
+	-khtml-opacity: 1;
+	-moz-opacity: 1;
+	top: 45%;
+}
