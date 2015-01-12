@@ -582,11 +582,7 @@ background:url(../img/bg.jpg) no-repeat center;
 	float:left;
 	padding-right: 44px;
 	}
-.fmenu{
-	margin-top:10px;
-	margin-bottom:60px;
-	text-align: center;
-	}
+.fmenu{font-size: 12px; text-align: right;}
 .copyright{
 	margin-top:10px;
 	font-size:12px;
@@ -594,11 +590,7 @@ background:url(../img/bg.jpg) no-repeat center;
 	color:#787a7e;
 	margin-bottom:60px;
 	}
-.social{
-	margin-top:10px;
-	text-align:center;
-	margin-bottom:60px;
-	}
+.social{}
 .fmenu ul li {
 float: left;
 padding-right:15px !important;
@@ -755,17 +747,9 @@ padding-bottom:14px;
 	display:none;
 	}	
 	
-.copyright {
-	text-align:center;
-	margin-bottom:0px;
-}
-.social{
-margin-top:48px;
-margin-bottom:0px;
-}
-.fmenu {
-margin-top: 40px;
-}
+.copyright {text-align:center;}
+.social{}
+.fmenu {padding: 10px 0; text-align:center;}
 
 .full h1{
 font-size:30px;

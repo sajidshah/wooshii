@@ -449,25 +449,22 @@
 		<div class="row"><!--row-->
 			
 			
-			
-			
-			<div class="col-md-4 col-sm-4 col-xs-12 col-lg-4 copyright">
-				<p>© Wooshii 2015. All right reserved.</p>
-			</div>
-			
-			<div class="col-md-4 col-sm-4 col-xs-12 col-lg-4 social">
+			<div class="col-md-4 col-sm-12 col-md-push-4 social text-center">
 				<a href="#"><img src="img/fb.png"/></a>
 				<a href="#"><img src="img/twitter.png"/></a>
 				<a href="#"><img src="img/utube.png"/></a>
 			</div>
 			
-			<div class="col-md-4 col-sm-4 col-xs-12 col-lg-4 fmenu">
+			<div class="col-md-4 col-sm-8 col-sm-push-4 col-md-offset-0 col-xs-12 fmenu ">
 				
-					<a href="#">Terms Of Use </a>
-					<a href="#">Terms & Conditions </a>
-					<a href="#">Privacy Policy </a>
+				<a href="#">Terms Of Use </a>
+				<a href="#">Terms & Conditions </a>
+				<a href="#">Privacy Policy </a>
 				
 			</div>
+			
+			<div class="col-sm-4 col-xs-12 col-md-pull-8 col-sm-pull-8 col-md-offset-0 copyright"> <p>© Wooshii 2015. All right reserved.</p> </div>
+			
 			
 			                 
 		</div><!--/row-->
