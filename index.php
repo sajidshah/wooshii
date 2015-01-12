@@ -91,7 +91,7 @@
 	</div>
 <!-- ======== / MAIN MENU ======== -->
 <!-- ======== HEADER ======== -->
-	<header id="home" class="parallax slide-menu">
+	 <header id="home" class="parallax slide-menu">
 		<!-- b-g Video -->
 		 <div class="header-unit hidden-xs">
 			<div id="video-container">
@@ -114,7 +114,7 @@
 					<a href="#main-menu" class="button-1 active">I NEED VIDEO</a>
 					<a href="#main-menu" class="button-1 btn-color">LEARN MORE</a>
 				</div>
-				<div class="dwn_page">
+				<div class="dwn_pag">
 					<a href="#sec01" id="start-button">
 						<p class="more">Learn More</p>
 						<img class="img img-reponsive nomargin_tb" src="assets/img/arrow.png" />
@@ -124,9 +124,9 @@
 			
 		</div>
 		
-	</header>
+	</header> 
 <!-- ======== / HEADER ======== -->
-	<div class="backgd" id="sec#02">
+	 <div class="backgd" id="sec#02">
 		<div class="container logos">
 			<div class="row"><!--row-->
 				<p class="trusted">We are trusted by</p>
@@ -145,7 +145,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
 	
 	<div class="container"><!--container-->
