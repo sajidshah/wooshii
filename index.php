@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="assets/css/lightbox.css" type="text/css" />
 		<link rel="stylesheet" href="assets/css/jquery.bxslider.css" type="text/css" />
 		<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" />
+		
 		<link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
 		<link rel="stylesheet" href="assets/css/media.css" type="text/css" />
 		<noscript>
@@ -145,7 +145,7 @@
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div> 
 	
 	
 	<div class="container"><!--container-->

@@ -605,7 +605,7 @@
 	#home {
 		width: 100%;
 		color: #fff;
-		background-image: url(assets/img/header/1.jpg);
+		background-image: url('assets/img/header/1.jpg') !important;
 	}
 	
 	#home .tb {
@@ -630,14 +630,12 @@
 	
 	
 	#home .tb .tb-cell h1 {
-		font-family : comesinhand;
+		font-family : "Crafty Girls";
 		margin-top : 100px;
 		margin-bottom: 20px;
 	}
 	
 	#home h6 {
-		font-family : relwayRegular;
-		
 		margin-bottom: 50px;
 		font-weight: normal;
 	}
@@ -812,7 +810,6 @@
 		text-align: center;
 		padding: 0 15px;
 		color: #ffffff;
-		font-family:brandonTextMedium;
 		transition: color 0.2s;
 		-webkit-transition: color 0.2s;
 		-moz-transition: color 0.2s;
