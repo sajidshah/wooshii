@@ -8,11 +8,7 @@
 	#home {
 		height: 80%;
 	}
-		#home .tb .tb-cell h1 {
-		
-		font-size: 140px;
-		
-	}
+	#home .tb .tb-cell h1 { font-size: 70px; }
 	#home h6 {
 		font-size: 29px;
 		
@@ -132,6 +128,7 @@
 		  position : absolute;
 		  width : 92%;
 		}
+		#home .tb .tb-cell h1 { font-size: 70px; }
 		#home{
 			height : 79%;
 		}
@@ -173,11 +170,7 @@
 	#home {
 		height: 70%;
 	}
-	
-	#home .tb .tb-cel h1 {
-		
-		font-size: 48px;
-	}
+	#home .tb .tb-cell h1 { font-size: 48px; }
 	#home h6 {
 		font-size: 29px;
 	}
@@ -296,7 +289,6 @@
 	}
 	
 	#home h6 {
-		font-family : MyriadPro-Light;
 		font-size: 24px;
 		margin-bottom: 40px;
 		font-weight: normal;
@@ -304,6 +296,11 @@
 	#chose_whooshii .seprator
 	{
 		margin-bottom : 60px;
+	}
+	
+	.trusted{
+	
+		padding-bottom:0 !important;
 	}
 	#trusted {
 	

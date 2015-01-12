@@ -4,7 +4,7 @@
 	@font-face {
     font-family: mosteserat-regular;   /*brandon Text Medium*/
     src: url("fonts/Montserrat-Regular.ttf");
-	
+	font-family: 'Montserrat', sans-serif;
    
 }
 @font-face {
@@ -48,6 +48,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		font-family : 'Raleway', sans-serif;;
 	}
 #header{
 	background:url(../img/header.jpg) no-repeat center;
@@ -71,7 +72,7 @@ float: right;
 }
 .navbar-default .navbar-nav>li>a {
 color: #fff;
-font-family:"mosteserat-regular";
+font-family:'Montserrat', sans-serif;
 font-size:13px;
 
 
@@ -96,14 +97,13 @@ background: none;
 	text-align: center;
 color: #fff;
 font-size: 140px;
-font-family:"comesinhand";
+font-family: 'Crafty Girls', cursive;
 padding-top:120px;
 padding-bottom:10px;
 }
 .text{
 text-align: center;
 color: #fff;
-font-family: "Raleway-Regular";
 padding-bottom:60px;
 font-size:26px;
 }
@@ -117,7 +117,7 @@ display: inline-block;
 margin: 7px;
 border: none;
 color: #fff;
-font-family: "mosteserat-regular";
+font-family: 'Montserrat', sans-serif;
 font-weight:bold;
 font-size: 14px;
 text-transform: uppercase;
@@ -131,7 +131,7 @@ display: inline-block;
 margin: 7px;
 border: none;
 color: #fff;
-font-family: "mosteserat-regular";
+font-family: 'Montserrat', sans-serif;
 font-weight:bold;
 font-size: 14px;
 text-transform: uppercase;
@@ -146,7 +146,7 @@ background-color:#2b2e3c;
 font-size: 13px;
 color: #fff;
 font-weight: bold;
-font-family:"Raleway-Regular";
+
 
 }
 
@@ -155,7 +155,7 @@ font-family:"Raleway-Regular";
 font-size: 13px;
 color: #fff;
 font-weight: bold;
-font-family:"Raleway-Regular";
+
 
 }
 
@@ -167,14 +167,13 @@ font-family:"Raleway-Regular";
 	margin-bottom: 20px;
 	}
 .trusted{
-	font-family:"Raleway-Regular";
+	
 	font-size:14px;
 	color:#646672;
 	text-align:center;
 	font-weight:bold;
-	padding-top:32px;
 	padding-bottom:30px;
-	
+	padding-top:32px;
 	}
 	
 .backgd{
@@ -193,9 +192,8 @@ background-color: #ecf0f1;
 	overflow: hidden;
 	}
 .logos ul li{
-	float:left;
-	padding-right: 44px;
-	}
+	padding-right: 44px; display:inline-block;
+}
 	
 .fcolor img{
 	filter: grayscale(1);
@@ -214,7 +212,7 @@ background-color: #ecf0f1;
 	}
 .h1{
 	color:#2b2e3c;
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	font-size:36px;
 	padding-top:120px;
 	padding-bottom:60px;
@@ -240,7 +238,7 @@ padding-right: 6px;
 	.span{
 	font-size:8px;
 	color:#262c35;
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	padding-left: 5px;
 	}
 .img{
@@ -281,7 +279,7 @@ display: inline-block;
 .txt p{
 	font-size:7px;
 	padding-top:9px;
-	font-family:"Raleway-Light";
+	
 	}
 
 .cont h2{
@@ -303,7 +301,6 @@ display: inline-block;
 .p{
 font-size: 15px !important;
 text-align: center ;
-font-family:"Raleway-Light";
 color:#868e9a !important;
 margin-top: 20px;
 line-height: 21px;
@@ -312,14 +309,14 @@ line-height: 21px;
 	background-color:#fff;
 	}
 .proposal p{
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	font-size:11px;
 	padding-top:17px;
 	padding-bottom:12px;
 	}
 .hi{
 	font-size:8px;
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	padding-top:14px;
 	}
 .profi{
@@ -327,7 +324,7 @@ line-height: 21px;
 	}
 .project{
 	font-size:6px;
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	}
 .bg1{
 	background-color:#fff;
@@ -355,7 +352,7 @@ line-height: 21px;
 	}
 .download{
 	font-size:11px;
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	padding-top:24px;
 	padding-bottom:12px;
 	text-align:center;
@@ -363,13 +360,13 @@ line-height: 21px;
 	}
 .awe{
 	font-size:9px;
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	color:#262c35;
 	}
 .mb{
 	color:#8b929c;
 	font-size:7px;
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	padding: 0px;
 	}
 .mb img{
@@ -393,7 +390,7 @@ line-height: 21px;
 	background-color:#1ac8c6;
 	color:#fff;
 	font-size:7px;
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	padding:10px;
 	}
 	
@@ -414,7 +411,7 @@ border: none;
 border-radius: 2px;
 
 color: #fff;
-font-family:"mosteserat-regular";
+font-family:'Montserrat', sans-serif;
 background: #1ac9c7;
 font-size: 18px;
 font-weight:bold;
@@ -435,7 +432,7 @@ text-align: center;
 }
 #gradient-bg h1{
 	color:#fff;
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	font-size:36px;
 	padding-top:120px;
 	padding-bottom:60px;
@@ -444,14 +441,13 @@ text-align: center;
 	text-transform:uppercase;
 	}
 .light{
-	font-family:"Raleway-Light";
 	font-size:16px;
 	color:#fff;
 	line-height:30px;
 	margin-bottom:30px;
 	}
 .mike{
-	font-family:"Raleway-Regular";
+	
 	font-size:12px;
 	color:#fff;
 	font-weight:bold;
@@ -461,7 +457,7 @@ text-align: center;
 	}
 .full h1{
 	color:#262c35;
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	font-size:36px;
 	padding-top:120px;
 	padding-bottom:60px;
@@ -471,7 +467,7 @@ text-align: center;
 	}	
 .full h3{
 	color:#262c35;
-	font-family:"Raleway-Regular";
+	
 	font-size:28px;
 	
 	
@@ -482,7 +478,7 @@ text-align: center;
 	
 .full h4{
 	color:#262c35;
-	font-family:"Raleway-Regular";
+	
 	font-size:15px;
 	font-weight:bold;
 	margin-top:25px;
@@ -492,7 +488,7 @@ text-align: center;
 	}	
 .full p{
 	color:#bcbdc7;
-	font-family:"Raleway-Light";
+	
 	font-size:15px;
 	margin-top:25px;
 	margin-bottom:15px;
@@ -523,7 +519,7 @@ background:url(../img/bg.jpg) no-repeat center;
 	
 .bg-vedio h1{
 	color:#fff;
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	font-size:36px;
 	padding-top:100px;
 	padding-bottom:22px;
@@ -534,7 +530,7 @@ background:url(../img/bg.jpg) no-repeat center;
 	
 .bg-vedio h3{
 	color:#8a8f95;
-	font-family:"mosteserat-regular";
+	font-family:'Montserrat', sans-serif;
 	font-size:18px;
 	
 	padding-bottom:65px;
@@ -547,7 +543,7 @@ background:url(../img/bg.jpg) no-repeat center;
 	}
 .bg-clip p{
 	color:#fff;
-	font-family:"Raleway-Regular";
+	
 	font-size:14px;
 	font-weight:bold;
 	line-height:24px;
@@ -556,7 +552,7 @@ background:url(../img/bg.jpg) no-repeat center;
 	}
 .adver{
 	color:#fff;
-	font-family:"Raleway-Regular";
+	
 	font-size:11px;
 	
 	line-height:24px;
@@ -567,13 +563,14 @@ background:url(../img/bg.jpg) no-repeat center;
 	
 .dollor{
 	color:#262c35 !important;
-	font-family:"Raleway-Regular";
+	
 	font-size:14px !important;
 	font-weight:bold !important;
 	line-height:24px;
 	}
 .marg{
 	margin-bottom:20px;
+	padding: 0 22px;
 	}
 .marge{
 	margin-bottom:120px;
@@ -585,30 +582,22 @@ background:url(../img/bg.jpg) no-repeat center;
 	float:left;
 	padding-right: 44px;
 	}
-.fmenu{
-	margin-top:10px;
-	margin-bottom:60px;
-	text-align: center;
-	}
+.fmenu{font-size: 12px; text-align: right;}
 .copyright{
 	margin-top:10px;
 	font-size:12px;
-	font-family:"Raleway-Light";
+	
 	color:#787a7e;
 	margin-bottom:60px;
 	}
-.social{
-	margin-top:10px;
-	text-align:center;
-	margin-bottom:60px;
-	}
+.social{}
 .fmenu ul li {
 float: left;
 padding-right:15px !important;
 }
 .fmenu a{
 	font-size:12px;
-	font-family:"Raleway-Light";
+	
 	color:#787a7e;
 	padding-right: 10px;
 	text-decoration:none;
@@ -658,10 +647,7 @@ padding-bottom:14px;
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 992px) { 
-.logos ul li {
-
-padding-right: 30px;
-}
+.logos ul li { padding-right: 25px; }
 .logos ul li a img{
 
 height:20px;
@@ -720,9 +706,6 @@ font-size:9px;
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
  
-#h1{
- 	font-size:70px !important;
-	}
 .text {
 font-size:22px !important;
 }
@@ -743,7 +726,7 @@ float:none;
 	
 .logos ul li {
 
-padding-right: 12px;
+padding-right: 8px;
 line-height:60px;
 }
 .logos ul li a img{
@@ -764,17 +747,9 @@ padding-bottom:14px;
 	display:none;
 	}	
 	
-.copyright {
-	text-align:center;
-	margin-bottom:0px;
-}
-.social{
-margin-top:48px;
-margin-bottom:0px;
-}
-.fmenu {
-margin-top: 40px;
-}
+.copyright {text-align:center;}
+.social{}
+.fmenu {padding: 10px 0; text-align:center;}
 
 .full h1{
 font-size:30px;
@@ -791,7 +766,7 @@ text-align:center;
 }
 
 #gradient-bg h1{
-	font-size:24px;
+	font-size:30px;
 	}
 .p{
 	margin-bottom:60px;
