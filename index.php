@@ -53,7 +53,7 @@
 		
 		<div class="row nomargin">
 			<div class="hidden-md hidden-lg" id="mobile-menu-button">
-				<i class="fa fa-bars"></i>
+				<i class="glyphicon glyphicon-align-justify"></i>
 			</div>
 			<div class="col-sm-2 col-lg-2">
 				<div id="logo-container">
@@ -63,10 +63,8 @@
 			<div class="nopadding col-sm-10 col-lg-10">
 				<nav id="desktop-menu" class="hidden-sm hidden-xs">
 					<ul>
-						<!-- <li><a href="#sec01">CASE STUDIES</a></li> -->
 						<li><a href="#sec02">I NEED VIDEO</a></li>
 						<li><a href="#sec03">I MAKE VIDEO</a></li>
-						
 						<li><a href="#sec04">LOGIN</a></li>
 					</ul>
 				</nav>
@@ -78,10 +76,9 @@
 					<div class="row">
 						<div class="col-md-12">
 							<ul>
-								<li><a href="#sec01">CASE STUDIES</a></li>
 								<li><a href="#sec02">I MAKE VIDEO</a></li>
 								<li><a href="#sec03">I NEED VIDEO</a></li>
-								<li><a href="#sec04"><i class="lock"></i>LOGIN</a></li>
+								<li><a href="#sec04">LOGIN</a></li>
 							</ul>
 						</div>
 					</div>
@@ -109,7 +106,7 @@
 					<li><img src="assets/img/play.png" class="img img-responsive"/></li>
 				</ul> -->
 				<h1 id="h1">Video made easy .</h1>
-				<h6 class="text">The No.1 Resource For High Quality On Budget Videos and Animation</h6>
+				<h6 class="text" class="col-sm-12 ">The No.1 Resource For High Quality On Budget Videos and Animation</h6>
 				<div class="button centered">
 					<a href="#main-menu" class="button-1 active">I NEED VIDEO</a>
 					<a href="#main-menu" class="button-1 btn-color">LEARN MORE</a>

@@ -172,9 +172,8 @@ font-weight: bold;
 	color:#646672;
 	text-align:center;
 	font-weight:bold;
-	padding-top:32px;
 	padding-bottom:30px;
-	
+	padding-top:32px;
 	}
 	
 .backgd{
@@ -655,10 +654,7 @@ padding-bottom:14px;
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 992px) { 
-.logos ul li {
-
-padding-right: 30px;
-}
+.logos ul li { padding-right: 25px; }
 .logos ul li a img{
 
 height:20px;
@@ -737,7 +733,7 @@ float:none;
 	
 .logos ul li {
 
-padding-right: 12px;
+padding-right: 8px;
 line-height:60px;
 }
 .logos ul li a img{
