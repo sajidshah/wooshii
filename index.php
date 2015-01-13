@@ -18,12 +18,10 @@
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 					<!-- GOOGLE FONTS -->
-		<link rel="stylesheet" href="style.css" type="text/css" />
-		<link rel="stylesheet" href="assets/css/lightbox.css" type="text/css" />
-		<link rel="stylesheet" href="assets/css/jquery.bxslider.css" type="text/css" />
-		<link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
-		
-		<link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
+
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<!-- <link rel="stylesheet" href="assets/css/custom.css" type="text/css" /> -->
 		<link rel="stylesheet" href="assets/css/media.css" type="text/css" />
 		<noscript>
 			<link rel="stylesheet" href="assets/css/nojs.css" type="text/css" />
@@ -36,8 +34,7 @@
 		<script src="assets/js/jquery-1.10.2.min.js"></script>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -91,13 +88,13 @@
 	 <header id="home" class="parallax slide-menu">
 		<!-- b-g Video -->
 		 <div class="header-unit hidden-xs">
-			<div id="video-container">
-				<video autoplay muted="muted" loop class="fillWidth">
+			 <div id="video-container">
+				<video autoplay muted="muted" loop class="fillWidth nopadding">
 					<source src="video/video.m4v" type="video/mp4"/>
 					<source src="video/video.webm" type="video/webm"/>
 					<img src="video/big-buck-bunny.jpg" title="Your browser does not support the <video> tag" />
 				</video>
-			</div><!-- end video-container -->
+			</div><!-- end video-container --> 
 		   </div><!-- end .header-unit -->
 		   		<!-- b-g Video -->
 		<div class="tb">
@@ -129,15 +126,15 @@
 				<p class="trusted">We are trusted by</p>
 				<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 fcolor">
 					<ul >
-						<li><a href="#"><img src="img/google.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/unilever.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/ebay.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/life.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/emi.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/intel.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/linked.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/mdead.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/mrichard.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/unilever.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/ebay.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/life.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/emi.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/intel.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/linked.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/mdead.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/mrichard.png" class="img-responsive"/></a></li>
 					</ul>
 				</div>
 			</div>
@@ -152,10 +149,11 @@
    <div class="col-md-12 col-sm-12 col-xs-12" >
     <h1 class="h1">How it works</h1>
    </div>
-
-   <div class="col-sm-4 col-xs-12"><!--blog1 -->
+	<!--blog1 -->
+   <div class="col-sm-4 col-xs-12">
+   	
    	<div class="col-xs-12 centered">
-    	<img src="img/blog1.png" class="img-responsive"/>
+    	<img src="assets/img/blog1.png" class="img-responsive"/>
     </div>
 
     <div class="col-xs-12">
@@ -166,12 +164,13 @@
     	<p class="p">Write a short explanation about your  video or animation project Set your budget</p>
     </div>
 
-   </div><!--/blog1-->
+   </div>
+   <!--/blog1-->
 
 
    <div class="col-md-4 col-sm-4 col-xs-12"><!--blog2 -->
     <div class="col-md-12 col-sm-12 col-xs-12 centered">
-     <img src="img/blog2.png" class="img-responsive"/>
+     <img src="assets/img/blog2.png" class="img-responsive"/>
     </div>
 
     <div class="col-md-12 col-sm-12 col-xs-12">
@@ -185,7 +184,7 @@
 
    <div class="col-md-4 col-sm-4 col-xs-12"><!--blog3 -->
     <div class="col-md-12 col-sm-12 col-xs-12 centered">
-     <img src="img/blog3.png" class="img-responsive"/>
+     <img src="assets/img/blog3.png" class="img-responsive"/>
     </div>
 
     <div class="col-md-12 col-sm-12 col-xs-12">
@@ -226,7 +225,7 @@
 				</div>
 						
 				<div  class="col-xs-2">
-					<img src="img/patrick.png"/>
+					<img src="assets/img/patrick.png"/>
 					
 				</div>
 						
@@ -239,7 +238,7 @@
 			
 			<div class="col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
 				
-				<div class="col-xs-1 tab"><img src="img/coma.png"/></div>	
+				<div class="col-xs-1 tab"><img src="assets/img/coma.png"/></div>	
 				
 				<div class="col-xs-11">
 					<p class="light">
@@ -251,7 +250,7 @@
 					
 						
 				<div  class="col-xs-2">
-					<img src="img/mike.png"/>
+					<img src="assets/img/mike.png"/>
 					
 				</div>
 						
@@ -272,7 +271,7 @@
 			
 			<div class="row">
 				<div class="col-sm-6 col-sm-push-6 col-xs-12 text-center ">
-					<img src="img/clipboard.png" class="img-responsive"/>
+					<img src="assets/img/clipboard.png" class="img-responsive"/>
 				</div>
 				<div class="col-sm-6 col-sm-pull-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">
 					<h3>Quality</h3>
@@ -282,7 +281,7 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-6 col-xs-12 text-center">
-					<img src="img/quality.png" class="img-responsive"/>
+					<img src="assets/img/quality.png" class="img-responsive"/>
 				</div>
 				<div class="col-sm-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">
 					<h3>Control</h3>
@@ -293,7 +292,7 @@
 			
 			<div class="row">
 				<div class="col-sm-6 col-sm-push-6  col-xs-12 text-center">
-					<img src="img/map.png" class="img-responsive"/>
+					<img src="assets/img/map.png" class="img-responsive"/>
 				</div>
 				<div class="col-sm-6 col-sm-pull-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">	
 					<h3>Choice</h3>
@@ -304,7 +303,7 @@
 			
 			<div class="row">
 				<div class="col-sm-6 col-xs-12 text-center">
-					<img src="img/safe.png" class="img-responsive"/>
+					<img src="assets/img/safe.png" class="img-responsive"/>
 				</div>
 			
 				<div class="col-sm-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">	
@@ -331,11 +330,11 @@
 			
 			<div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2"><!--vedios-->
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg ">
-					<img src="img/1.jpg" class="img-responsive"/>
+					<img src="assets/img/1.jpg" class="img-responsive"/>
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip">
 								<p>Lorem ipsum dolor sit amet</p>
 									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-										<img src="img/user.png"/><span class="adver">by AidemStudios</span>
+										<img src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
 									</div>
 									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 										<span class="dollor"> $3000</span>
@@ -344,11 +343,11 @@
 				</div>
 				
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg ">
-					<img src="img/2.jpg" class="img-responsive"/>
+					<img src="assets/img/2.jpg" class="img-responsive"/>
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip">
 								<p>Lorem ipsum dolor sit amet</p>
 									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-										<img src="img/user.png"/><span class="adver">by AidemStudios</span>
+										<img src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
 									</div>
 									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 										<span class="dollor"> $3000</span>
@@ -358,11 +357,11 @@
 				
 				
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg ">
-					<img src="img/3.jpg" class="img-responsive"/>
+					<img src="assets/img/3.jpg" class="img-responsive"/>
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip">
 								<p>Lorem ipsum dolor sit amet</p>
 									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-										<img src="img/user.png"/><span class="adver">by AidemStudios</span>
+										<img src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
 									</div>
 									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 										<span class="dollor"> $3000</span>
@@ -376,11 +375,11 @@
 			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--vedios-->
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marge mobile">
-					<img src="img/4.jpg" class="img-responsive"/>
+					<img src="assets/img/4.jpg" class="img-responsive"/>
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip">
 								<p>Lorem ipsum dolor sit amet</p>
 									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-										<img src="img/user.png"/><span class="adver">by AidemStudios</span>
+										<img src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
 									</div>
 									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 										<span class="dollor"> $3000</span>
@@ -389,11 +388,11 @@
 				</div>
 				
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marge mobile">
-					<img src="img/5.jpg" class="img-responsive"/>
+					<img src="assets/img/5.jpg" class="img-responsive"/>
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip">
 								<p>Lorem ipsum dolor sit amet</p>
 									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-										<img src="img/user.png"/><span class="adver">by AidemStudios</span>
+										<img src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
 									</div>
 									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 										<span class="dollor"> $3000</span>
@@ -403,11 +402,11 @@
 				
 				
 				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marge mobile">
-					<img src="img/6.jpg" class="img-responsive"/>
+					<img src="assets/img/6.jpg" class="img-responsive"/>
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip">
 								<p>Lorem ipsum dolor sit amet</p>
 									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-										<img src="img/user.png"/><span class="adver">by AidemStudios</span>
+										<img src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
 									</div>
 									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 										<span class="dollor"> $3000</span>
@@ -429,15 +428,15 @@
 				<p class="trusted">We are trusted by</p>
 				<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 fcolor">
 					<ul >
-						<li><a href="#"><img src="img/google.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/unilever.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/ebay.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/life.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/emi.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/intel.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/linked.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/mdead.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="img/mrichard.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/unilever.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/ebay.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/life.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/emi.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/intel.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/linked.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/mdead.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/mrichard.png" class="img-responsive"/></a></li>
 					</ul>
 				</div>
 			</div>
@@ -450,9 +449,8 @@
 			
 			
 			<div class="col-md-4 col-sm-12 col-md-push-4 social text-center">
-				<a href="#"><img src="img/fb.png"/></a>
-				<a href="#"><img src="img/twitter.png"/></a>
-				<a href="#"><img src="img/utube.png"/></a>
+				<a href="#"><img src="assets/img/fb.png"/></a>
+				<a href="#"><img src="assets/img/twitter.png"/></a>
 			</div>
 			
 			<div class="col-md-4 col-sm-8 col-sm-push-4 col-md-offset-0 col-xs-12 fmenu ">
@@ -477,7 +475,7 @@
 	
 	<script src="assets/js/jquery.nicescroll.min.js"></script>	
 	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 <!-- ======== / OTHER SCRIPTS ======== -->
   </body>

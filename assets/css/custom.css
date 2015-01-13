@@ -1,52 +1,10 @@
 body{
-	font-family : relwayRegular;
+	font-family : 'Raleway', sans-serif;
 }
 h1{
 	font-family : comesinhand;
 }
-.briefcase {
-  display: inline;
-  text-indent: -9999px;
-  width: 10px;
-  height: 10px;
-  background: url("../fonts/svg/briefcase.svg.ai");
-  background-size: 100px 82px;
-}
-.nopadding{
-	padding-left:0px !important;
-	padding-right:0px !important; 
-}
-.nopadding-right{
-	padding-right:0px !important; 
-}
-.nomargin{
-	margin-left:0px !important;
-	margin-right:0px !important;
-}
-.nomargin_tb
-{
-	margin-top:0px !important;
-	margin-bottom: 0px !important;
-}
-.centered{
-    float: none;
-    margin: 0 auto;
-    text-align: center;
-}
 
-.lock {
-	display: inline-block;
-    margin-right: 5px;
-    content: "";
-    background: url("../img/lock.png") no-repeat 0 0;
-    background-size: 100%;
-	width : 14px;
-	height : 14px;
-}
-#desktop-menu ul li:last-child :hover .lock {  
-	/*,.current_menu_item .lock*/
-	 background: url("../img/lock.png") no-repeat 0 -14px;
-}
 #trusted {
 	
 	width:100%;
@@ -699,7 +657,5 @@ p{
 	border-width: 24.5px 44px 24.5px 0;
 	border-color: transparent #ffffff transparent transparent;
 }
-.button{
-		display: inline-block;
-}
+
 
