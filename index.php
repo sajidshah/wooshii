@@ -22,7 +22,6 @@
 
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
-		<!-- <link rel="stylesheet" href="assets/css/custom.css" type="text/css" /> -->
 		<link rel="stylesheet" href="assets/css/media.css" type="text/css" />
 		<noscript>
 			<link rel="stylesheet" href="assets/css/nojs.css" type="text/css" />
