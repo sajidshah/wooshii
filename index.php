@@ -452,6 +452,7 @@
 			<div class="col-md-4 col-sm-12 col-md-push-4 social text-center">
 				<a href="#"><img src="assets/img/fb.png"/></a>
 				<a href="#"><img src="assets/img/twitter.png"/></a>
+				<a href="#"><img src="assets/img/utube.png"/></a>
 			</div>
 			
 			<div class="col-md-4 col-sm-8 col-sm-push-4 col-md-offset-0 col-xs-12 fmenu ">
