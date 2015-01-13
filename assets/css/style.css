@@ -610,7 +610,7 @@
 	
 	
 	#home .tb .tb-cell h1 {
-		font-family : "Crafty Girls";
+		font-family: 'Crafty Girls', cursive;
 		margin-top : 100px;
 		margin-bottom: 20px;
 	}
@@ -1020,7 +1020,7 @@ display: inline-block;
 .cont h4{
 	font-size:22px;
 	font-weight:bold;
-	font-family:"Raleway-regular";
+
 	color:#6c7076;
 	padding-top:22px;
 	padding-bottom:5px;
@@ -1039,7 +1039,7 @@ display: inline-block;
 
 .cont h2{
 	font-size:22px;
-	font-family:"Raleway-regular";
+	
 	font-weight:bold;
 	color:#262c35;
 	
@@ -1047,7 +1047,7 @@ display: inline-block;
 	
  .p1{
 	font-size:22px;
-	font-family:"Raleway-regular";
+	
 	font-weight:bold;
 	color:#1ac8c6;
 	
@@ -1099,7 +1099,7 @@ line-height: 21px;
 	
 .h2{
 	font-size:22px;
-	font-family:"Raleway-regular";
+
 	font-weight:bold;
 	color:#262c35;
 	text-align:center;
@@ -1133,7 +1133,7 @@ line-height: 21px;
 .txt2{
 	color:#8b929c;
 	font-size:7px;
-	font-family:"Raleway-regular";
+	
 	padding-top:10px;
 	}
 	.dowld-btn{
@@ -1172,7 +1172,16 @@ font-size: 18px;
 font-weight:bold;
 text-transform: uppercase;
 }
-
+.centered{
+	margin-left : auto;
+	margin-right : auto;
+	text-align : center;
+	float:none;	
+}
+.nopadding{
+	padding-left : 0px !important;
+	padding-right : 0px !important;	
+}
 .center {
 
 margin-top:65px;
@@ -1566,3 +1575,4 @@ float:none;
 			font-size:14px;
 			}
 }
+.why_choose > .row > div {margin-bottom:70px; }

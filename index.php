@@ -17,6 +17,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 					<!-- GOOGLE FONTS -->
 
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -215,7 +216,7 @@
 			
 			<div class="col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
 				
-				<div class="col-xs-1 tab"><img src="img/coma.png"/></div>
+				<div class="col-xs-1 tab"><img src="assets/img/coma.png"/></div>
 				
 				<div class="col-xs-11">	
 					<p class="light">
