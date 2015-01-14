@@ -15,9 +15,9 @@
 
 <!-- resolve dns -->
 	<link rel="dns-prefetch" href="//fonts.googleapis.com" />
-  <link rel="dns-prefetch" href="//code.jquery.com" />
-  <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com" />
-  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+	<link rel="dns-prefetch" href="//code.jquery.com" />
+	<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com" />
+	<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
 <!-- end resolve -->
 
 <!-- ======== STYLESHEETS ======== -->
