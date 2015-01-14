@@ -327,8 +327,8 @@
 				<div class="col-sm-6 col-sm-push-6 col-xs-12 text-center">
 					<div class="map_container">
 						<img src="assets/img/map.png" class="img-responsive"/>
-						<img src="assets/img/marker.png" data-wow-delay="300ms"  class="wow fadeIn img-responsive"/>
-						<img src="assets/img/arrows.png" data-wow-delay="600ms"  class="wow fadeIn img-responsive"/>
+						<img src="assets/img/marker.png" data-wow-delay="500ms"  class="wow fadeIn img-responsive"/>
+						<img src="assets/img/arrows.png" data-wow-delay="1200ms"  class="wow fadeIn img-responsive"/>
 					</div>
 				</div>
 				<div class="col-sm-6 col-sm-pull-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">	
