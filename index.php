@@ -308,9 +308,9 @@
 						<img src="assets/img/quality.png" class="img-responsive"/>
 						<div class="control_controls">
 							<ul>
-								<li class="ctrl1"><img class="ctrl1 wow slide" data-wow-delay="300ms" src="assets/img/control-1.png"></li>
-								<li class="ctrl2"><img class="ctrl2 wow slide" data-wow-delay="600ms" src="assets/img/control-2.png"></li>
-								<li class="ctrl3"><img class="ctrl3 wow slide" data-wow-delay="900ms" src="assets/img/control-3.png"></li>
+								<li class="ctrl1"><img class="wow slide" data-wow-delay="300ms" src="assets/img/control-1.png"></li>
+								<li class="ctrl2"><img class="wow slide" data-wow-delay="600ms" src="assets/img/control-2.png"></li>
+								<li class="ctrl3"><img class="wow slide" data-wow-delay="900ms" src="assets/img/control-3.png"></li>
 							</ul>
 						</div>
 					</div>
@@ -327,8 +327,8 @@
 				<div class="col-sm-6 col-sm-push-6 col-xs-12 text-center">
 					<div class="map_container">
 						<img src="assets/img/map.png" class="img-responsive"/>
-						<img src="assets/img/marker.png" class="img-responsive"/>
-						<img src="assets/img/arrows.png" class="img-responsive"/>
+						<img src="assets/img/marker.png" data-wow-delay="300ms"  class="wow fadeIn img-responsive"/>
+						<img src="assets/img/arrows.png" data-wow-delay="600ms"  class="wow fadeIn img-responsive"/>
 					</div>
 				</div>
 				<div class="col-sm-6 col-sm-pull-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">	

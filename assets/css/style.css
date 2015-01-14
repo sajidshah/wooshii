@@ -1588,7 +1588,7 @@ float:none;
 .clipboard_tick li{margin-bottom:7px;}
 .clipboard_tick img{margin-left:-121px; }
 
-.conainter_control{min-height:193; }
+.conainter_control{min-height:193px; }
 .control{position: absolute; left: 0; right: 0; }
 .control_controls{position: absolute; left: 0; right: 0; top:0px;}
 .control_controls ul li{height:195px; display:inline-block;}
@@ -1599,4 +1599,4 @@ float:none;
 .control_controls li.ctrl3 img {margin-top:40px;}
 
 .map_container{min-height:193px; }
-.map_container img{position: absolute; left: 0; right: 0; }
+.map_container img{position: absolute; left: 0; right: 0; margin: 0 auto;}
