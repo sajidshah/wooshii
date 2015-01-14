@@ -21,16 +21,18 @@
 <!-- end resolve -->
 
 <!-- ======== STYLESHEETS ======== -->
-			<!-- GOOGLE FONTS -->
+		<!-- GOOGLE FONTS -->
 		<link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
-					<!-- GOOGLE FONTS -->
+		<!-- GOOGLE FONTS -->
 
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/media.css" type="text/css" />
+		<link rel="stylesheet" href="assets/css/animate.css">
+		
 		<noscript>
 			<link rel="stylesheet" href="assets/css/nojs.css" type="text/css" />
 		</noscript>
@@ -278,9 +280,22 @@
 			<div class="col-sm-12 col-xs-10 col-xs-offset-1 col-sm-offset-0"> <h1>Why Choose Wooshii</h1> </div>
 			
 			<div class="row">
-				<div class="col-sm-6 col-sm-push-6 col-xs-12 text-center ">
-					<img src="assets/img/clipboard.png" class="img-responsive"/>
+				<div class="col-sm-6 col-sm-push-6 col-xs-12 text-center container_clipboard">
+					<div class="clipboard">
+						<img src="assets/img/clipboard.png" class="img-responsive"/>
+						<div class="clipboard_tick">
+							<ul>
+								<li><img class="wow fadeIn" data-wow-delay="300ms" src="assets/img/tick.png"></li>
+								<li><img class="wow fadeIn" data-wow-delay="600ms" src="assets/img/tick.png"></li>
+								<li><img class="wow fadeIn" data-wow-delay="900ms" src="assets/img/tick.png"></li>
+								<li><img class="wow fadeIn" data-wow-delay="1200ms" src="assets/img/tick.png"></li>
+							</ul>
+						</div>
+						
+					</div>
+					
 				</div>
+				
 				<div class="col-sm-6 col-sm-pull-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">
 					<h3>Quality</h3>
 					<h4>We have helped make hundreds of videos for companies large and small</h4>
@@ -288,8 +303,18 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-6 col-xs-12 text-center">
-					<img src="assets/img/quality.png" class="img-responsive"/>
+				<div class="col-sm-6 col-xs-12 text-center conainter_control">
+					<div class="control">
+						<img src="assets/img/quality.png" class="img-responsive"/>
+						<div class="control_controls">
+							<ul>
+								<li class="ctrl1"><img class="wow slide" data-wow-delay="300ms" src="assets/img/control-1.png"></li>
+								<li class="ctrl2"><img class="wow slide" data-wow-delay="600ms" src="assets/img/control-2.png"></li>
+								<li class="ctrl3"><img class="wow slide" data-wow-delay="900ms" src="assets/img/control-3.png"></li>
+							</ul>
+						</div>
+					</div>
+					
 				</div>
 				<div class="col-sm-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">
 					<h3>Control</h3>
@@ -299,8 +324,12 @@
 			</div>
 			
 			<div class="row">
-				<div class="col-sm-6 col-sm-push-6  col-xs-12 text-center">
-					<img src="assets/img/map.png" class="img-responsive"/>
+				<div class="col-sm-6 col-sm-push-6 col-xs-12 text-center">
+					<div class="map_container">
+						<img src="assets/img/map.png" class="img-responsive"/>
+						<img src="assets/img/marker.png" data-wow-delay="500ms"  class="wow fadeIn img-responsive"/>
+						<img src="assets/img/arrows.png" data-wow-delay="1200ms"  class="wow fadeIn img-responsive"/>
+					</div>
 				</div>
 				<div class="col-sm-6 col-sm-pull-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">	
 					<h3>Choice</h3>
@@ -310,8 +339,9 @@
 			</div>
 			
 			<div class="row">
-				<div class="col-sm-6 col-xs-12 text-center">
-					<img src="assets/img/safe.png" class="img-responsive"/>
+				<div class="col-sm-6 col-xs-12 text-center container_safe">
+					<div class="safe"><img src="assets/img/safe.png" class="img-responsive"/></div>
+					<div class="safe_handle"><img class="wow rotate" data-wow-delay="800ms" src="assets/img/safe-handle.PNG"></div>
 				</div>
 			
 				<div class="col-sm-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">	
@@ -485,7 +515,14 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.5.1/jquery.nicescroll.min.js"></script>	
 	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
+	
+	
+	
+	<script src="assets/js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	
 <!-- ======== / OTHER SCRIPTS ======== -->
   </body>
 </html>
