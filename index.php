@@ -12,6 +12,14 @@
 		<meta name="keywords" content="html, css, theme, studio, themes, jquery, javascript" /> <!-- Here write your tags -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <!-- ======== / META TAGS ======== -->
+
+<!-- resolve dns -->
+	<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//code.jquery.com" />
+  <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com" />
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+<!-- end resolve -->
+
 <!-- ======== STYLESHEETS ======== -->
 			<!-- GOOGLE FONTS -->
 		<link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
@@ -31,7 +39,7 @@
 		<![endif]-->
 <!-- ======== / STYLESHEETS ======== -->
 <!-- ======== STANDARD SCRIPTS ======== -->
-		<script src="assets/js/jquery-1.10.2.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 
     <!-- Bootstrap -->
     
@@ -474,7 +482,7 @@
    <!-- ======== OTHER SCRIPTS ======== -->
 	<script src="assets/js/scripts.js"></script>
 	
-	<script src="assets/js/jquery.nicescroll.min.js"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.5.1/jquery.nicescroll.min.js"></script>	
 	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
