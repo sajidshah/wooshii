@@ -1576,3 +1576,27 @@ float:none;
 			}
 }
 .why_choose > .row > div {margin-bottom:70px; }
+
+.container_safe{min-height:212px; }
+.safe{ position: absolute; left: 0; right: 0; }
+.safe_handle{ position: absolute; left: 0; right: 0; margin-top: 38px; margin-left: 14px;}
+
+
+.container_clipboard{min-height:225px; }
+.clipboard{ position: absolute; left: 0; right: 0; }
+.clipboard_tick{ position: absolute; left: 0; right: 0; top:73px;}
+.clipboard_tick li{margin-bottom:7px;}
+.clipboard_tick img{margin-left:-121px; }
+
+.conainter_control{min-height:193px; }
+.control{position: absolute; left: 0; right: 0; }
+.control_controls{position: absolute; left: 0; right: 0; top:0px;}
+.control_controls ul li{height:195px; display:inline-block;}
+.control_controls li img{float:left; }
+.control_controls li.ctrl1 img{margin-top:73px; }
+.control_controls li.ctrl2{padding: 0 15px; }
+.control_controls li.ctrl2 img {margin-top:100px;}
+.control_controls li.ctrl3 img {margin-top:40px;}
+
+.map_container{min-height:193px; }
+.map_container img{position: absolute; left: 0; right: 0; margin: 0 auto;}
