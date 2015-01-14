@@ -341,7 +341,7 @@
 			<div class="row">
 				<div class="col-sm-6 col-xs-12 text-center container_safe">
 					<div class="safe"><img src="assets/img/safe.png" class="img-responsive"/></div>
-					<div class="safe_handle"><img class="wow rotate" data-wow-delay="800ms" src="assets/img/safe-handle.PNG"></div>
+					<div class="safe_handle"><img class="wow rotate" data-wow-delay="800ms" src="assets/img/safe-handle.png"></div>
 				</div>
 			
 				<div class="col-sm-6 col-xs-8 col-sm-offset-0 col-xs-offset-2">	
