@@ -392,7 +392,7 @@
 			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--vedios-->
 
-				<div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2"><!--vedios-->
+				<div class="col-sm-12 col-xs-10 col-sm-offset-0 col-xs-offset-1"><!--vedios-->
 					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
 						<div class="recent-projects">
 							<img src="assets/img/1.jpg" class="col-md-12 col-xs-12 nopadding"/>
