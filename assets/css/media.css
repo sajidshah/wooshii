@@ -44,6 +44,9 @@
 		display: inline-block;
 		margin:7px;
 	}
+	.button-3{
+		padding: 18px 30px;
+	}
 	#sec05 .glyphicon-chevron-left{
 	  left: -27%;
 	}
