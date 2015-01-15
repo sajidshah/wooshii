@@ -42,7 +42,7 @@
 <!-- ======== / STYLESHEETS ======== -->
 <!-- ======== STANDARD SCRIPTS ======== -->
 		<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-
+		<script src="https://code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>
     <!-- Bootstrap -->
     
 
@@ -113,24 +113,40 @@
 					<li><img src="assets/img/play.png" class="img img-responsive"/></li>
 				</ul> -->
 
-				<h1 id="h1">Video made easy .</h1>
-				<h6 class="text capitalize" class="col-sm-12">
-					Find an Animator Or Video Maker for your Explainer,Demo video,product video,customer testimonial
+				<h1 id="h1">Video made easy </h1>
+				<h6 class="capitalize" class="col-sm-12">
+					Find an Animator Or Video Maker for your Explainer
 				</h6>
+				<!-- used bootstrap carosel -->
+				<div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
+						<!-- Wrapper for slides -->
+					  <div class="carousel-inner text" role="listbox">
+					    <div class="item active">
+					      	<h6>Demo video</h6>
+					    </div>
+					    <div class="item">
+					    	<h6>Product video</h6>
+					    </div>
+					    <div class="item">
+					   		<h6>Customer Testimonial</h6>
+					    </div>
+					  </div>
+				</div>
+				<!-- bootstrap carosuel -->
 				<div class="button centered">
 					<a href="#main-menu" class="button-1 btn-color">LEARN MORE</a>
 					<a href="#main-menu" class="button-1 active">I NEED VIDEO</a>
 					
 				</div>
-				<!-- <div class="dwn_pag "> -->
-					<!-- <a href="#sec01" id="start-button">
+				<div class="dwn_pag " id="bounce_dwn">
+					 <a href="#sec01" id="start-button">
 						<!-- <p class="more">Learn More</p> -->
-					<!--	<img class="img img-reponsive nomargin_tb" src="assets/img/arrow.png" />
-					</a> -->
-					<div class="arrow bounceMe">
+						<img  class="img img-reponsive nomargin_tb" src="assets/img/arrow.png" />
+					</a>
+					<!-- <div class="arrow bounceMe">
 
-					</div>
-				<!-- </div> -->
+					</div> -->
+				</div>
 			</div>
 			
 		</div>
@@ -556,6 +572,14 @@
 	<script src="assets/js/wow.min.js"></script>
 	<script>
 	 new WOW().init();
+	 $(document).ready(function(){
+	 	setInterval(function() {
+		    $('#bounce_dwn').effect('bounce',1000)
+		}, 1000);
+		$('.carousel').carousel({
+		  interval: 1000
+		})
+	 });
 	</script>
 	
 <!-- ======== / OTHER SCRIPTS ======== -->
