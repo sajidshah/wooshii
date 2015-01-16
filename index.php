@@ -146,8 +146,10 @@
 					</a>
 				</div>
 				
-				
-				<div class="backgd dwn_pag" id="sec02">
+			</div>
+		</div>
+		
+		<div class="backgd dwn_pag" id="sec02">
 				<div class="container-fluid logos">
 					<div class="row"><!--row-->
 						<p class="trusted">We are trusted by</p>
@@ -167,10 +169,9 @@
 					</div>
 				</div>
 			</div>
-				
-			</div>
-			
-		</div>
+		
+		
+		
 	</div>
 	</header> 
 <!-- ======== / HEADER ======== -->
