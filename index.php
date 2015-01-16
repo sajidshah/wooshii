@@ -33,7 +33,7 @@
 		<link href="assets/css/style.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/media.css" type="text/css" />
 		<link rel="stylesheet" href="assets/css/animate.css">
-		<!-- <link rel="stylesheet" href="video/style.css"> -->
+		<link rel="stylesheet" href="video/style.css">
 		
 		<noscript>
 			<link rel="stylesheet" href="assets/css/nojs.css" type="text/css" />
@@ -99,9 +99,9 @@
 <!-- ======== / MAIN MENU ======== -->
 <!-- ======== HEADER ======== -->
 	 <header id="home" class="parallax slide-menu">
-	 	<div class="video-bg">
+	 	<!-- <div class="video-bg"> -->
 		<!-- b-g Video -->
-		 <div class="header-unit hidden-xs">
+		 <!-- <div class="header-unit1 hidden-xs"> -->
 			 <div id="container">
 				<video autoplay muted="muted" loop class="">
 					<source src="video/video.m4v" type="video/mp4"/>
@@ -109,10 +109,10 @@
 					<img src="img/header.jpg" stitle="Your browser does not support the <video> tag" />
 				</video>
 			</div><!-- end video-container --> 
-		   </div><!-- end .header-unit -->
+		   <!-- </div><!-- end .header-unit -->
 		   		<!-- b-g Video -->
 		
-		<div class="tb">
+		<div class="tb content">
 			<div class="tb-cell">
 				<!-- <ul id="text">
 					<li><img src="assets/img/play.png" class="img img-responsive"/></li>
@@ -159,7 +159,7 @@
 		
 		
 		
-	</div>
+	<!-- </div> -->
 	</header> 
 <!-- ======== / HEADER ======== -->
 	 <!-- <div class="backgd" id="sec02">

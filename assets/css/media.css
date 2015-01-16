@@ -132,8 +132,8 @@
 			overflow: hidden;
 		}
 		video {
-			position:absolute;
-			z-index:0;
+			/*position:absolute;*/
+			z-index:-999 !important;
 		}
 		
 	/*For background Video 	*/
@@ -166,7 +166,7 @@
 			
 		}
 		video {
-			position:absolute;
+			/*position:absolute;*/
 			z-index:0;
 		}
 		video.fillWidth {
@@ -279,7 +279,7 @@
 		  width : 100%
 		}
 		#video-container {
-			position: absolute;
+			/*position: absolute;*/
 		}
 		#video-container {
 			top:0%;
@@ -289,7 +289,7 @@
 			overflow: hidden;
 		}
 		video {
-			position:absolute;
+			/*position:absolute;*/
 			z-index:0;
 		}
 		video.fillWidth {
