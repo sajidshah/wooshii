@@ -610,6 +610,9 @@
 		/*margin-bottom : -75px;*/
 
 	}
+	#video-container {
+			position: absolute;
+		}
 	.dwn_pag{
 		position: absolute;
 		 bottom: 0;
@@ -893,7 +896,7 @@ font-weight:bold;
 font-size: 14px;
 text-transform: uppercase;
 background-color:#20babe;
-float: right;
+
 }
 
 .button-2{
@@ -1296,6 +1299,7 @@ text-align: center;
 background:url(../img/bg.jpg) no-repeat center;
  background-size: cover;
     width: 100%;
+    overflow : hidden;
    
 }
 	

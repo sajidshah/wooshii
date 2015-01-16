@@ -1,12 +1,20 @@
 /* Large desktop */
 @media (min-width: 1200px) {
+	.video-bg{
+		position:absolute;
+		width:100%;
+		height : 100%;
+		background : #1FB3B7;
+		top:0;
+		left:0;
+	}
 	
 	#logo-container,#interior-logo-container {
 		margin-top: 20px;
 		margin-left:45px;
 	}
 	#home {
-		height: 80%;
+		height: 100%;
 	}
 	#home .tb .tb-cell h1 { font-size: 70px; }
 	#home h6 {
@@ -100,14 +108,12 @@
 		  position : absolute;
 		  width : 100%
 		}
-		#video-container {
-			
-		}
+		
 		#video-container {
 			position: absolute;
 			top:0%;
 			left:0%;
-			min-height:80%;
+			min-height:100%;
 			width:100%;
 			overflow: hidden;
 		}
@@ -139,15 +145,13 @@
 		#home{
 			height : 79%;
 		}
-		#video-container {
-			position: absolute;
-		}
+		
 		#video-container {
 			top:0%;
 			left:0%;
-			height:90%;
-			width:110%;
-			overflow: hidden;
+			height:100%;
+			width:100%;
+			
 		}
 		video {
 			position:absolute;
@@ -258,7 +262,7 @@
 	}
 	/*for background video */
 	.header-unit {
-		  height: 80%;
+		  height: 100%;
 		  position : absolute;
 		  width : 100%
 		}
@@ -268,7 +272,7 @@
 		#video-container {
 			top:0%;
 			left:0%;
-			height:90%;
+			height:100%;
 			width:120%;
 			overflow: hidden;
 		}

@@ -21,12 +21,12 @@
 <!-- end resolve -->
 
 <!-- GOOGLE FONTS -->
-<link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 <!-- GOOGLE FONTS -->
-<!-- ======== STYLESHEETS ======== -->
+	<!-- ======== STYLESHEETS ======== -->
 		
 
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -97,10 +97,11 @@
 <!-- ======== / MAIN MENU ======== -->
 <!-- ======== HEADER ======== -->
 	 <header id="home" class="parallax slide-menu">
+	 	<div class="video-bg">
 		<!-- b-g Video -->
 		 <div class="header-unit hidden-xs">
 			 <div id="video-container">
-				<video autoplay muted="muted" loop class="fillWidth nopadding">
+				<video autoplay muted="muted" loop class="fillWidth">
 					<source src="video/video.m4v" type="video/mp4"/>
 					<source src="video/video.webm" type="video/webm"/>
 					<img src="img/header.jpg" stitle="Your browser does not support the <video> tag" />
@@ -108,6 +109,7 @@
 			</div><!-- end video-container --> 
 		   </div><!-- end .header-unit -->
 		   		<!-- b-g Video -->
+		
 		<div class="tb">
 			<div class="tb-cell">
 				<!-- <ul id="text">
@@ -135,24 +137,47 @@
 				</div>
 				<!-- bootstrap carosuel -->
 				<div class="button centered">
-					<a href="#main-menu" class="button-1 btn-color">LEARN MORE</a>
 					<a href="#main-menu" class="button-1 active">I NEED VIDEO</a>
+					<a href="#main-menu" class="button-1 btn-color">LEARN MORE</a>
 				</div>
-				<div class="dwn_pag" id="bounce_dwn">
+				<div class="dwn_pag1" id="bounce_dwn">
 					 <a href="#sec022" id="start-button">
 						<img  class="img img-reponsive nomargin_tb" src="assets/img/arrow.png" />
 					</a>
 				</div>
+				
+				
+				<div class="backgd dwn_pag" id="sec02">
+				<div class="container-fluid logos">
+					<div class="row"><!--row-->
+						<p class="trusted">We are trusted by</p>
+						<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 fcolor">
+							<ul >
+								<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
+								<li><a href="#"><img src="assets/img/unilever.png" class="img-responsive"/></a></li>
+								<li><a href="#"><img src="assets/img/ebay.png" class="img-responsive"/></a></li>
+								<li><a href="#"><img src="assets/img/life.png" class="img-responsive"/></a></li>
+								<li><a href="#"><img src="assets/img/emi.png" class="img-responsive"/></a></li>
+								<li><a href="#"><img src="assets/img/intel.png" class="img-responsive"/></a></li>
+								<li><a href="#"><img src="assets/img/linked.png" class="img-responsive"/></a></li>
+								<li><a href="#"><img src="assets/img/mdead.png" class="img-responsive"/></a></li>
+								<li><a href="#"><img src="assets/img/mrichard.png" class="img-responsive"/></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+				
 			</div>
 			
 		</div>
-		
+	</div>
 	</header> 
 <!-- ======== / HEADER ======== -->
-	 <div class="backgd" id="sec02">
+	 <!-- <div class="backgd" id="sec02">
 		<div class="container logos">
 			<div class="row"><!--row-->
-				<p class="trusted">We are trusted by</p>
+			<!--	<p class="trusted">We are trusted by</p>
 				<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 fcolor">
 					<ul >
 						<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
@@ -168,70 +193,70 @@
 				</div>
 			</div>
 		</div>
-	</div> 
+	</div> --> 
 	
 	
 	<div class="container"><!--container-->
  
-  <div class="row" id="more"><!--row-->
-   
-   <div class="col-md-12 col-sm-12 col-xs-12" >
-    <h1 class="h1">How it works</h1>
-   </div>
-	<!--blog1 -->
-   <div class="col-sm-4 col-xs-12">
-   	
-   	<div class="col-xs-12 centered">
-    	<img src="assets/img/blog1.png" class="img-responsive"/>
-    </div>
-
-    <div class="col-xs-12">
-      <h2 class="h2"><span class="p1"> 1.</span>  Describe your project</h2>
-    </div>
-     
-    <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
-    	<p class="p">Write a short explanation about your  video or animation project Set your budget</p>
-    </div>
-
-   </div>
-   <!--/blog1-->
-
-
-   <div class="col-md-4 col-sm-4 col-xs-12"><!--blog2 -->
-    <div class="col-md-12 col-sm-12 col-xs-12 centered">
-     <img src="assets/img/blog2.png" class="img-responsive"/>
-    </div>
-
-    <div class="col-md-12 col-sm-12 col-xs-12">
-      <h2 class="h2"><span class="p1"> 2.</span> Receive proposals</h2>
-     </div>
-     
-     <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
-	     <p class="p">We will send your project to our video makers for free You will receive propsals</p>
-     </div>
-   </div><!--/blog2-->
-
-   <div class="col-md-4 col-sm-4 col-xs-12"><!--blog3 -->
-    <div class="col-md-12 col-sm-12 col-xs-12 centered">
-     <img src="assets/img/blog3.png" class="img-responsive"/>
-    </div>
-
-    <div class="col-md-12 col-sm-12 col-xs-12">
-      <h2 class="h2"><span class="p1"> 3.</span> Get your video</h2>
-    </div>
-     
-    <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
-     
-     <p class="p">Choose your video-maker/animator. They will make your video/animation</p>
-    </div>
-
-   </div><!--/blog3-->
-     
-     
-   <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center">
-    <button class="button-3">Get Started Now</button>
-   </div>
-  </div><!--/row-->
+		  <div class="row" id="more"><!--row-->
+		   
+		   <div class="col-md-12 col-sm-12 col-xs-12" >
+		    <h1 class="h1">How it works</h1>
+		   </div>
+			<!--blog1 -->
+		   <div class="col-sm-4 col-xs-12">
+		   	
+		   	<div class="col-xs-12 centered">
+		    	<img src="assets/img/blog1.png" class="img-responsive"/>
+		    </div>
+		
+		    <div class="col-xs-12">
+		      <h2 class="h2"><span class="p1"> 1.</span>  Describe your project</h2>
+		    </div>
+		     
+		    <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
+		    	<p class="p">Write a short explanation about your  video or animation project Set your budget</p>
+		    </div>
+		
+		   </div>
+		   <!--/blog1-->
+		
+		
+		   <div class="col-md-4 col-sm-4 col-xs-12"><!--blog2 -->
+		    <div class="col-md-12 col-sm-12 col-xs-12 centered">
+		     <img src="assets/img/blog2.png" class="img-responsive"/>
+		    </div>
+		
+		    <div class="col-md-12 col-sm-12 col-xs-12">
+		      <h2 class="h2"><span class="p1"> 2.</span> Receive proposals</h2>
+		     </div>
+		     
+		     <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
+			     <p class="p">We will send your project to our video makers for free You will receive propsals</p>
+		     </div>
+		   </div><!--/blog2-->
+		
+		   <div class="col-md-4 col-sm-4 col-xs-12"><!--blog3 -->
+		    <div class="col-md-12 col-sm-12 col-xs-12 centered">
+		     <img src="assets/img/blog3.png" class="img-responsive"/>
+		    </div>
+		
+		    <div class="col-md-12 col-sm-12 col-xs-12">
+		      <h2 class="h2"><span class="p1"> 3.</span> Get your video</h2>
+		    </div>
+		     
+		    <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
+		     
+		     <p class="p">Choose your video-maker/animator. They will make your video/animation</p>
+		    </div>
+		
+		   </div><!--/blog3-->
+		     
+		     
+		   <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center">
+		    <button class="button-3">Get Started Now</button>
+		   </div>
+		  </div><!--/row-->
   
  </div><!--/container-->
 	
@@ -377,8 +402,8 @@
 		</div><!--/row-->
 	</div><!--/container-->
 	
-<div class="bg-vedio">	
-	<div class="container"><!--container-->
+<div class="bg-vedio" id="sec">	
+	<div class="container" ><!--container-->
 		<div class="row">
 			<div class="col-xs-12">
 				<h1>Recent projects</h1>
