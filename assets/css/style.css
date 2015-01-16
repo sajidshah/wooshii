@@ -629,7 +629,6 @@
 	#home .tb .tb-cell h1 {
 		font-family: 'Raleway', sans-serif;/*'Crafty Girls', cursive;*/
 		font-weight: bold;
-		margin-top : 100px;
 		margin-bottom: 20px;
 	}
 	
@@ -951,12 +950,12 @@ font-weight: bold;
 	}
 	
 .backgd{
-background-color: #ecf0f1;
+	
 }	
 
 .logos{
-	//background-color:#ecf0f1;
-	margin-bottom:34px;
+	background-color:#ecf0f1;
+	padding-bottom:34px;
 
 	
 	}

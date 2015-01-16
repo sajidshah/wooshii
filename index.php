@@ -102,7 +102,7 @@
 	 	<!-- <div class="video-bg"> -->
 		<!-- b-g Video -->
 		 <!-- <div class="header-unit1 hidden-xs"> -->
-			 <div id="container">
+			 <div id="container" class="hidden-xs">
 				<video autoplay muted="muted" loop class="">
 					<source src="video/video.m4v" type="video/mp4"/>
 					<source src="video/video.webm" type="video/webm"/>
@@ -585,7 +585,7 @@
 	 new WOW().init();
 	 $(document).ready(function(){
 	 	setInterval(function() {
-		    $('#bounce_dwn').effect('bounce',2000)
+		    $('#bounce_dwn1').effect('bounce',2000)
 		}, 3000);
 		$('.carousel').carousel({
 		  interval: 1000
