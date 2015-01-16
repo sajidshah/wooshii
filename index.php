@@ -20,13 +20,14 @@
 	<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
 <!-- end resolve -->
 
+<!-- GOOGLE FONTS -->
+<link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+<!-- GOOGLE FONTS -->
 <!-- ======== STYLESHEETS ======== -->
-		<!-- GOOGLE FONTS -->
-		<link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
-		<!-- GOOGLE FONTS -->
+		
 
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
@@ -390,32 +391,14 @@
 			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--vedios-->
 
-			<div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2"><!--vedios-->
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
-					<div class="recent-projects">
-						<img src="assets/img/1.jpg" class="col-md-12 col-xs-12 nopadding"/>
-						<img class="col-md-12 col-xs-12 nopadding play" src="assets/img/play2.png" />
-					</div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
-							<p>Lorem ipsum dolor sit amet</p>
-							<div class="col-lg-12 nopadding r-user">
-								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
-									<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
-									<span class="dollor"> $3000</span>
-								</div>
-							</div>	
+				<div class="col-sm-12 col-xs-10 col-sm-offset-0 col-xs-offset-1"><!--vedios-->
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
+						<div class="recent-projects">
+							<img src="assets/img/1.jpg" class="col-md-12 col-xs-12 nopadding"/>
+							<img class="col-md-12 col-xs-12 nopadding play" src="assets/img/play2.png" />
 						</div>
-				</div>
-				
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
-					<div class="recent-projects">
-						<img src="assets/img/2.jpg" class="col-md-12 col-xs-12 nopadding"/>
-						<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
-					</div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
-							<p>Lorem ipsum dolor sit amet</p>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
+								<p>Lorem ipsum dolor sit amet</p>
 								<div class="col-lg-12 nopadding r-user">
 									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
 										<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
@@ -424,85 +407,104 @@
 										<span class="dollor"> $3000</span>
 									</div>
 								</div>	
-						</div>
-				</div>
-				
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
-					<div class="recent-projects">
-						<img src="assets/img/3.jpg" class="col-md-12 col-xs-12 nopadding"/>
-						<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
+							</div>
 					</div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
-							<p>Lorem ipsum dolor sit amet</p>
-								<div class="col-lg-12 nopadding r-user">
-									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
-										<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
-										<span class="dollor"> $3000</span>
-									</div>
-								</div>	
+					
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
+						<div class="recent-projects">
+							<img src="assets/img/2.jpg" class="col-md-12 col-xs-12 nopadding"/>
+							<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
 						</div>
-				</div>
-				
-			
-
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
-					<div class="recent-projects">
-						<img src="assets/img/4.jpg" class="col-md-12 col-xs-12 nopadding"/>
-						<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
+								<p>Lorem ipsum dolor sit amet</p>
+									<div class="col-lg-12 nopadding r-user">
+										<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
+											<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
+											<span class="dollor"> $3000</span>
+										</div>
+									</div>	
+							</div>
 					</div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
-							<p>Lorem ipsum dolor sit amet</p>
-								<div class="col-lg-12 nopadding r-user">
-									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
-										<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
-										<span class="dollor"> $3000</span>
-									</div>
-								</div>	
+					
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
+						<div class="recent-projects">
+							<img src="assets/img/3.jpg" class="col-md-12 col-xs-12 nopadding"/>
+							<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
 						</div>
-				</div>
-				
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
-					<div class="recent-projects">
-						<img src="assets/img/5.jpg" class="col-md-12 col-xs-12 nopadding"/>
-						<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
+								<p>Lorem ipsum dolor sit amet</p>
+									<div class="col-lg-12 nopadding r-user">
+										<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
+											<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
+											<span class="dollor"> $3000</span>
+										</div>
+									</div>	
+							</div>
 					</div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
-							<p>Lorem ipsum dolor sit amet</p>
-								<div class="col-lg-12 nopadding r-user">
-									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
-										<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
-										<span class="dollor"> $3000</span>
-									</div>
-								</div>	
+					
+				
+	
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
+						<div class="recent-projects">
+							<img src="assets/img/4.jpg" class="col-md-12 col-xs-12 nopadding"/>
+							<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
 						</div>
-				</div>
-				
-				
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
-					<div class="recent-projects">
-						<img src="assets/img/6.jpg" class="col-md-12 col-xs-12 nopadding nopadding"/>
-						<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
+								<p>Lorem ipsum dolor sit amet</p>
+									<div class="col-lg-12 nopadding r-user">
+										<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
+											<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
+											<span class="dollor"> $3000</span>
+										</div>
+									</div>	
+							</div>
 					</div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
-							<p>Lorem ipsum dolor sit amet</p>
-								<div class="col-lg-12 nopadding r-user">
-									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
-										<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
-										<span class="dollor"> $3000</span>
-									</div>
-								</div>	
+					
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
+						<div class="recent-projects">
+							<img src="assets/img/5.jpg" class="col-md-12 col-xs-12 nopadding"/>
+							<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
 						</div>
-				</div>
-				
-			</div><!--/vedios-->
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
+								<p>Lorem ipsum dolor sit amet</p>
+									<div class="col-lg-12 nopadding r-user">
+										<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
+											<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
+											<span class="dollor"> $3000</span>
+										</div>
+									</div>	
+							</div>
+					</div>
+					
+					
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
+						<div class="recent-projects">
+							<img src="assets/img/6.jpg" class="col-md-12 col-xs-12 nopadding nopadding"/>
+							<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
+						</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
+								<p>Lorem ipsum dolor sit amet</p>
+									<div class="col-lg-12 nopadding r-user">
+										<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
+											<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
+											<span class="dollor"> $3000</span>
+										</div>
+									</div>	
+							</div>
+					</div>
+					
+				</div><!--/vedios-->
+			</div>
 		</div>
 	</div><!--/container-->
 </div>
