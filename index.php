@@ -136,7 +136,6 @@
 				<div class="button centered">
 					<a href="#main-menu" class="button-1 btn-color">LEARN MORE</a>
 					<a href="#main-menu" class="button-1 active">I NEED VIDEO</a>
-					
 				</div>
 				<div class="dwn_pag " id="bounce_dwn">
 					 <a href="#sec01" id="start-button">
@@ -575,7 +574,7 @@
 	 $(document).ready(function(){
 	 	setInterval(function() {
 		    $('#bounce_dwn').effect('bounce',1000)
-		}, 1000);
+		}, 3000);
 		$('.carousel').carousel({
 		  interval: 1000
 		})

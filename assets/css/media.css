@@ -126,6 +126,9 @@
 		display: inline-block;
 		margin:7px;
 	}
+	#home img{
+		margin-bottom : -30px;
+	}
 	.header-unit {
 		  height: 88%;
 		  position : absolute;
@@ -157,6 +160,9 @@
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 992px) {
+	#home img{
+		margin-bottom : -30px;
+	}
 	
 	.col-md-centered{
 		    /*float: none;*/
@@ -251,7 +257,7 @@
 	}
 	/*for background video */
 	.header-unit {
-		  height: 90%;
+		  height: 80%;
 		  position : absolute;
 		  width : 100%
 		}
@@ -261,7 +267,7 @@
 		#video-container {
 			top:0%;
 			left:0%;
-			height:80%;
+			height:90%;
 			width:120%;
 			overflow: hidden;
 		}
@@ -282,9 +288,15 @@
 		margin-top: 14px;
 		margin-left:45px;
 	}
+	.text{
+		padding-bottom : 0px;
+	}
 	#home {
 		/*height: 100%;*/
 	} 
+	#home img{
+		margin-bottom : -17px;
+	}
 
 	#home .tb .tb-cell h1 {
 		
