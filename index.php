@@ -136,10 +136,10 @@
 			</div>
 		</div>
 		
-		<!-- <div class="backgd dwn_pag" id="sec02">
+		 <div class="backgd dwn_pag" id="sec02">
 				<div class="container-fluid logos">
 					<div class="row"><!--row-->
-				<!--		<p class="trusted">We are trusted by</p>
+						<p class="trusted">We are trusted by</p>
 						<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 fcolor">
 							<ul >
 								<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
@@ -155,7 +155,7 @@
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
 		
 		
 		
