@@ -140,12 +140,8 @@
 				</div>
 				<div class="dwn_pag " id="bounce_dwn">
 					 <a href="#sec01" id="start-button">
-						<!-- <p class="more">Learn More</p> -->
 						<img  class="img img-reponsive nomargin_tb" src="assets/img/arrow.png" />
 					</a>
-					<!-- <div class="arrow bounceMe">
-
-					</div> -->
 				</div>
 			</div>
 			

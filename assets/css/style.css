@@ -600,11 +600,20 @@
 		font-family: MyriadPro-Light;
 		font-size: 38px;
 	}
-	
+	.button{
+		margin-bottom : 35px;	
+	}
 	#home img{
 		/*margin: 40px auto;*/
-		margin-bottom : -75px;
+		/*margin-bottom : -75px;*/
 
+	}
+	.dwn_pag{
+		position: absolute;
+		 bottom: 0;
+		 left:0;
+		 right:0;
+		 margin : 0 auto;	
 	}
 	#home h1, #home h6 {
 		color: #fff;
@@ -1664,6 +1673,7 @@ float:none;
 	.tb-cell {
 	display: table-cell;
 	text-align: center;
+	position : relative;
 	vertical-align: middle;
 }
 	#home .tb {
