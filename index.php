@@ -127,61 +127,41 @@
 					<a href="#main-menu" class="button-1 active">I NEED VIDEO</a>
 					<a href="#main-menu" class="button-1 btn-color">LEARN MORE</a>
 				</div>
-				<div class="dwn_pag1" id="bounce_dwn">
-					 <a href="#sec022" id="start-button">
-						<img  class="img img-reponsive nomargin_tb" src="assets/img/arrow.png" />
-					</a>
-				</div>
 				
 			</div>
 		</div>
 		
 		 <div class="backgd dwn_pag" id="sec02">
-				<div class="container-fluid logos">
-					<div class="row"><!--row-->
-						<p class="trusted">We are trusted by</p>
-						<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 fcolor">
-							<ul >
-								<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
-								<li><a href="#"><img src="assets/img/unilever.png" class="img-responsive"/></a></li>
-								<li><a href="#"><img src="assets/img/ebay.png" class="img-responsive"/></a></li>
-								<li><a href="#"><img src="assets/img/life.png" class="img-responsive"/></a></li>
-								<li><a href="#"><img src="assets/img/emi.png" class="img-responsive"/></a></li>
-								<li><a href="#"><img src="assets/img/intel.png" class="img-responsive"/></a></li>
-								<li><a href="#"><img src="assets/img/linked.png" class="img-responsive"/></a></li>
-								<li><a href="#"><img src="assets/img/mdead.png" class="img-responsive"/></a></li>
-								<li><a href="#"><img src="assets/img/mrichard.png" class="img-responsive"/></a></li>
-							</ul>
-						</div>
+		 	<div class="dwn_pag1" id="bounce_dwn">
+				 <a href="#sec022" id="start-button">
+					<img  class="img img-reponsive nomargin_tb" src="assets/img/arrow.png" />
+				</a>
+			</div>
+			<div class="container-fluid logos">
+				<div class="row"><!--row-->
+					<p class="trusted">We are trusted by</p>
+					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 fcolor">
+						<ul >
+							<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
+							<li><a href="#"><img src="assets/img/unilever.png" class="img-responsive"/></a></li>
+							<li><a href="#"><img src="assets/img/ebay.png" class="img-responsive"/></a></li>
+							<li><a href="#"><img src="assets/img/life.png" class="img-responsive"/></a></li>
+							<li><a href="#"><img src="assets/img/emi.png" class="img-responsive"/></a></li>
+							<li><a href="#"><img src="assets/img/intel.png" class="img-responsive"/></a></li>
+							<li><a href="#"><img src="assets/img/linked.png" class="img-responsive"/></a></li>
+							<li><a href="#"><img src="assets/img/mdead.png" class="img-responsive"/></a></li>
+							<li><a href="#"><img src="assets/img/mrichard.png" class="img-responsive"/></a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
+		</div>
 		
 		
 		
 	<!-- </div> -->
 	</header> 
 <!-- ======== / HEADER ======== -->
-	 <!-- <div class="backgd" id="sec02">
-		<div class="container logos">
-			<div class="row"><!--row-->
-			<!--	<p class="trusted">We are trusted by</p>
-				<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 fcolor">
-					<ul >
-						<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/unilever.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/ebay.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/life.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/emi.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/intel.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/linked.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/mdead.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/mrichard.png" class="img-responsive"/></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div> --> 
 	
 	<div class="clearfix"></div>
 	<div class="container"><!--container-->
@@ -191,7 +171,6 @@
 		   <div class="col-md-12 col-sm-12 col-xs-12" >
 		    <h1 class="h1">How it works</h1>
 		   </div>
-			<!--blog1 -->
 		   <div class="col-sm-4 col-xs-12">
 		   	
 		   	<div class="col-xs-12 centered">
@@ -207,10 +186,10 @@
 		    </div>
 		
 		   </div>
-		   <!--/blog1-->
+		   <!--/-->
 		
 		
-		   <div class="col-md-4 col-sm-4 col-xs-12"><!--blog2 -->
+		   <div class="col-md-4 col-sm-4 col-xs-12">
 		    <div class="col-md-12 col-sm-12 col-xs-12 centered">
 		     <img src="assets/img/blog2.png" class="img-responsive"/>
 		    </div>
@@ -222,9 +201,9 @@
 		     <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
 			     <p class="p">We will send your project to our video makers for free You will receive propsals</p>
 		     </div>
-		   </div><!--/blog2-->
+		   </div>
 		
-		   <div class="col-md-4 col-sm-4 col-xs-12"><!--blog3 -->
+		   <div class="col-md-4 col-sm-4 col-xs-12">
 		    <div class="col-md-12 col-sm-12 col-xs-12 centered">
 		     <img src="assets/img/blog3.png" class="img-responsive"/>
 		    </div>
@@ -238,10 +217,10 @@
 		     <p class="p">Choose your video-maker/animator. They will make your video/animation</p>
 		    </div>
 		
-		   </div><!--/blog3-->
+		   </div>
 		     
 		     
-		   <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center">
+		   <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center">
 		    <button class="button-3">Get Started Now</button>
 		   </div>
 		  </div><!--/row-->
@@ -383,7 +362,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center">
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center">
     <button class="button-3">Get Started Now</button>
    </div>
 					
@@ -518,11 +497,11 @@
 	</div><!--/container-->
 </div>
 
-	<div class="backgd">
+	<div class="footer_icons">
 		<div class="container logos">
 			<div class="row"><!--row-->
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 center">
-						<button class="button-3">Get Started Now</button>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center">
+					<button class="button-3">Get Started Now</button>
 				</div>
 				<p class="trusted">We are trusted by</p>
 				<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 fcolor">
@@ -585,7 +564,7 @@
 	 new WOW().init();
 	 $(document).ready(function(){
 	 	setInterval(function() {
-		    $('#bounce_dwn1').effect('bounce',2000)
+		    $('#bounce_dwn').effect('bounce',2000)
 		}, 3000);
 		$('.carousel').carousel({
 		  interval: 1000
