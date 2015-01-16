@@ -587,7 +587,9 @@
 	#home {
 		width: 100%;
 		color: #fff;
-		background-image: url('../img/header/header.jpg') !important;
+		background-image: url('../img/header/header.jpg');
+		height : 80%;
+		overflow:hidden;
 	}
 	
 	#home .tb {

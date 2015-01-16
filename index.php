@@ -103,7 +103,7 @@
 				<video autoplay muted="muted" loop class="fillWidth nopadding">
 					<source src="video/video.m4v" type="video/mp4"/>
 					<source src="video/video.webm" type="video/webm"/>
-					<img src="video/big-buck-bunny.jpg" title="Your browser does not support the <video> tag" />
+					<img src="img/header.jpg" stitle="Your browser does not support the <video> tag" />
 				</video>
 			</div><!-- end video-container --> 
 		   </div><!-- end .header-unit -->
@@ -138,8 +138,8 @@
 					<a href="#main-menu" class="button-1 btn-color">LEARN MORE</a>
 					<a href="#main-menu" class="button-1 active">I NEED VIDEO</a>
 				</div>
-				<div class="dwn_pag " id="bounce_dwn">
-					 <a href="#sec01" id="start-button">
+				<div class="dwn_pag" id="bounce_dwn">
+					 <a href="#sec022" id="start-button">
 						<img  class="img img-reponsive nomargin_tb" src="assets/img/arrow.png" />
 					</a>
 				</div>
@@ -149,7 +149,7 @@
 		
 	</header> 
 <!-- ======== / HEADER ======== -->
-	 <div class="backgd" id="sec#02">
+	 <div class="backgd" id="sec02">
 		<div class="container logos">
 			<div class="row"><!--row-->
 				<p class="trusted">We are trusted by</p>
@@ -571,7 +571,7 @@
 	 new WOW().init();
 	 $(document).ready(function(){
 	 	setInterval(function() {
-		    $('#bounce_dwn').effect('bounce',1000)
+		    $('#bounce_dwn').effect('bounce',2000)
 		}, 3000);
 		$('.carousel').carousel({
 		  interval: 1000
