@@ -394,3 +394,28 @@
 		
 		});	
 	})(jQuery);
+
+
+$(function(){
+        $("h6 .first").typed({
+            strings: ["Find An Animator Or Video Maker For Your "],
+            typeSpeed: 0,
+            callback: function() {
+              showThis();
+            },
+          
+        });
+   
+     function showThis(){
+
+        $("span.second").typed({
+              strings: ["Explainer", "Demo video", "Product video", "Customer Testimonial"],
+              backDelay: 1500,    
+              typeSpeed: 100,
+              backSpeed: 100,
+              loop: true,
+              
+          });
+
+      }
+   });

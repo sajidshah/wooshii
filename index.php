@@ -117,24 +117,9 @@
 				</ul> -->
 
 				<h1 id="h1">Video made easy </h1>
-				<h6 class="capitalize" class="col-sm-12">
-					Find an Animator Or Video Maker for your Explainer
-				</h6>
-				<!-- used bootstrap carosel -->
-				<div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
-						<!-- Wrapper for slides -->
-					  <div class="carousel-inner text" role="listbox">
-					    <div class="item active">
-					      	<h6>Demo video</h6>
-					    </div>
-					    <div class="item">
-					    	<h6>Product video</h6>
-					    </div>
-					    <div class="item">
-					   		<h6>Customer Testimonial</h6>
-					    </div>
-					  </div>
-				</div>
+				
+				<h6 class="capitalize" class="col-sm-12"><span class="first"></span><span class="second"></span></h6>
+
 				<!-- bootstrap carosuel -->
 				<div class="button centered">
 					<a href="#main-menu" class="button-1 active">I NEED VIDEO</a>
@@ -584,6 +569,7 @@
 	
 
    <!-- ======== OTHER SCRIPTS ======== -->
+   <script src="assets/js/typed.js"></script>
 	<script src="assets/js/scripts.js"></script>
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.5.1/jquery.nicescroll.min.js"></script>	
