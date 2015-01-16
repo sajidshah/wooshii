@@ -155,7 +155,7 @@
 		}
 		#home .tb .tb-cell h1 { font-size: 70px; }
 		#home{
-			height : 79%;
+			height : 100%;
 		}
 		
 		#video-container {
@@ -194,7 +194,7 @@
 		float: none;
 	}
 	#home {
-		height: 70%;
+		height: 100%;
 	}
 	#home .tb .tb-cell h1 { font-size: 48px; }
 	#home h6 {
