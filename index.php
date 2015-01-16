@@ -33,6 +33,7 @@
 		<link href="assets/css/style.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/media.css" type="text/css" />
 		<link rel="stylesheet" href="assets/css/animate.css">
+		<!-- <link rel="stylesheet" href="video/style.css"> -->
 		
 		<noscript>
 			<link rel="stylesheet" href="assets/css/nojs.css" type="text/css" />
@@ -44,6 +45,7 @@
 <!-- ======== STANDARD SCRIPTS ======== -->
 		<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="https://code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>
+		<script src="video/javascript.js"></script>
     <!-- Bootstrap -->
     
 
@@ -100,8 +102,8 @@
 	 	<div class="video-bg">
 		<!-- b-g Video -->
 		 <div class="header-unit hidden-xs">
-			 <div id="video-container">
-				<video autoplay muted="muted" loop class="fillWidth">
+			 <div id="container">
+				<video autoplay muted="muted" loop class="">
 					<source src="video/video.m4v" type="video/mp4"/>
 					<source src="video/video.webm" type="video/webm"/>
 					<img src="img/header.jpg" stitle="Your browser does not support the <video> tag" />
@@ -149,10 +151,10 @@
 			</div>
 		</div>
 		
-		<div class="backgd dwn_pag" id="sec02">
+		<!-- <div class="backgd dwn_pag" id="sec02">
 				<div class="container-fluid logos">
 					<div class="row"><!--row-->
-						<p class="trusted">We are trusted by</p>
+				<!--		<p class="trusted">We are trusted by</p>
 						<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 fcolor">
 							<ul >
 								<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
@@ -168,7 +170,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		
 		
 		
@@ -196,7 +198,7 @@
 		</div>
 	</div> --> 
 	
-	
+	<div class="clearfix"></div>
 	<div class="container"><!--container-->
  
 		  <div class="row" id="more"><!--row-->
