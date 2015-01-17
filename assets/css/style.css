@@ -264,7 +264,7 @@ background: none;
 
 .header_content{position:absolute; top: 50%; left: 0; right:0; z-index:10; width: 100%; text-align:center;color: #fff;}
 
-#home h1 {font-weight: bold; margin-top:-200px; color:#fff;}
+#home h1 {font-weight: bold; margin-top:-200px; color:#fff; font-family: 'Raleway', sans-serif !important; text-transform: none;}
 #home h6 { font-weight: normal; color:#fff;}
 
 #home .buttons{	margin-bottom : 35px; }
@@ -288,7 +288,7 @@ background: none;
 }
 
 /*section */
-h1{color: #2b2e3c;
+section h1{color: #2b2e3c;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-weight: bold;
@@ -401,13 +401,13 @@ a.get_started{margin-top:35px; background: #1ac8c6; border-bottom: solid 3px #04
 	@media (min-width: 993px){
 		header h1{font-size: 70px;}
 		.trusted ul li {margin: 0 18px;}
-		h1{font-size: 36px; padding-bottom: 60px;}
+		section h1{font-size: 36px; padding-bottom: 60px;}
 		section{padding: 110px 0; }
 	
 	}
 	@media (min-width: 768px){
 		header h6{ font-size:29px; line-height:24px; margin: 40px 0 80px 0; line-height:36px;}
-		h1{font-size: 36px; padding-bottom: 75px;}
+		section h1{font-size: 36px; padding-bottom: 75px;}
 		section{padding: 90px 0; }
 	}
 	@media (max-width: 767px){
@@ -434,7 +434,7 @@ a.get_started{margin-top:35px; background: #1ac8c6; border-bottom: solid 3px #04
 	}
 	@media (min-width: 481px) and (max-width: 767px) {
 		header h1{font-size: 36px;}
-		h1{font-size: 30px; padding-bottom: 50px;}
+		section h1{font-size: 30px; padding-bottom: 50px;}
 		.capitalize{font-size: 20px; margin: 30px 0 40px 0;}
 		.trusted ul li img{height: 15px;}
 		.trusted ul li {margin: 0 6px;}
