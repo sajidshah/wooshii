@@ -30,8 +30,10 @@
 		
 
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 		<link href="assets/css/style.css" rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/media.css" type="text/css" />
+		<!--<link rel="stylesheet" href="assets/css/media.css" type="text/css" />-->
 		<link rel="stylesheet" href="assets/css/animate.css">
 		<link rel="stylesheet" href="video/style.css">
 		
@@ -99,201 +101,142 @@
 <!-- ======== / MAIN MENU ======== -->
 <!-- ======== HEADER ======== -->
 	 <header id="home" class="parallax slide-menu">
-	 	<!-- <div class="video-bg"> -->
-		<!-- b-g Video -->
-		 <!-- <div class="header-unit1 hidden-xs"> -->
-			 <div id="container" class="hidden-xs">
-				<video autoplay muted="muted" loop class="">
-					<source src="video/video.m4v" type="video/mp4"/>
-					<source src="video/video.webm" type="video/webm"/>
-					<img src="img/header.jpg" stitle="Your browser does not support the <video> tag" />
-				</video>
-			</div><!-- end video-container --> 
-		   <!-- </div><!-- end .header-unit -->
-		   		<!-- b-g Video -->
-		
-		<div class="tb content">
-			<div class="tb-cell">
-				<!-- <ul id="text">
-					<li><img src="assets/img/play.png" class="img img-responsive"/></li>
-				</ul> -->
-
-				<h1 id="h1">Video made easy </h1>
-				
-				<h6 class="capitalize" class="col-sm-12"><span class="first"></span><span class="second"></span></h6>
-
-				<!-- bootstrap carosuel -->
-				<div class="button centered">
-					<a href="#main-menu" class="button-1 active">I NEED VIDEO</a>
-					<a href="#main-menu" class="button-1 btn-color">LEARN MORE</a>
-				</div>
-				
-			</div>
+	 	
+		 <div id="container" class="hidden-xs">
+			<video autoplay muted="muted" loop class="">
+				<source src="video/video.m4v" type="video/mp4"/>
+				<source src="video/video.webm" type="video/webm"/>
+				<img src="img/header.jpg" stitle="Your browser does not support the <video> tag" />
+			</video>
 		</div>
+		
+		
+		<div class="header_content">
+					
+			<h1>Video made easy </h1>
+			<h6 class="capitalize" class="col-sm-12"><span class="first"></span><span class="second"></span></h6>
+	
+			<!-- bootstrap carosuel -->
+			<div class="buttons">
+				<a href="#" class="button video">I NEED VIDEO</a>
+				<a href="#" class="button learn">LEARN MORE</a>
+			</div>
+		</div>		
 		
 		 <div class="backgd dwn_pag" id="sec02">
-		 	<div class="dwn_pag1" id="bounce_dwn">
-				 <a href="#sec022" id="start-button">
-					<img  class="img img-reponsive nomargin_tb" src="assets/img/arrow.png" />
-				</a>
+		 	<div id="bounce_dwn">
+				 <a href="#"><img  class="img img-reponsive nomargin_tb" src="assets/img/arrow.png" /></a>
 			</div>
-			<div class="container-fluid logos">
-				<div class="row"><!--row-->
-					<p class="trusted">We are trusted by</p>
-					<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 fcolor">
-						<ul >
-							<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
-							<li><a href="#"><img src="assets/img/unilever.png" class="img-responsive"/></a></li>
-							<li><a href="#"><img src="assets/img/ebay.png" class="img-responsive"/></a></li>
-							<li><a href="#"><img src="assets/img/life.png" class="img-responsive"/></a></li>
-							<li><a href="#"><img src="assets/img/emi.png" class="img-responsive"/></a></li>
-							<li><a href="#"><img src="assets/img/intel.png" class="img-responsive"/></a></li>
-							<li><a href="#"><img src="assets/img/linked.png" class="img-responsive"/></a></li>
-							<li><a href="#"><img src="assets/img/mdead.png" class="img-responsive"/></a></li>
-							<li><a href="#"><img src="assets/img/mrichard.png" class="img-responsive"/></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+			<div class="trusted">
+				
+				<p>We are trusted by</p>
+				
+					<ul >
+						<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/unilever.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/ebay.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/life.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/emi.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/intel.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/linked.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/mdead.png" class="img-responsive"/></a></li>
+						<li><a href="#"><img src="assets/img/mrichard.png" class="img-responsive"/></a></li>
+					</ul>
+				
+			
+			</div><!-- end trusted -->
 		</div>
 		
-		
-		
-	<!-- </div> -->
 	</header> 
 <!-- ======== / HEADER ======== -->
-	
-	<div class="clearfix"></div>
-	<div class="container"><!--container-->
- 
-		  <div class="row" id="more"><!--row-->
-		   
-		   <div class="col-md-12 col-sm-12 col-xs-12" >
-		    <h1 class="h1">How it works</h1>
-		   </div>
-		   <div class="col-sm-4 col-xs-12">
+	<section id="how_works">	
+		<div class="container text-center"><!--container-->
+				
+	    	<h1>How it works</h1>
+		   	<div class="col-sm-4 col-xs-12">
 		   	
-		   	<div class="col-xs-12 centered">
-		    	<img src="assets/img/blog1.png" class="img-responsive"/>
-		    </div>
+			   	
+			    <img src="assets/img/blog1.png" class="img-responsive"/>
+			    
+			    <h2> <span class="aqua"> 1.</span>  Describe your project </h2>
+			 	<div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2">
+			    	<p>Write a short explanation about your  video or animation project Set your budget</p>
+			    </div>
 		
-		    <div class="col-xs-12">
-		      <h2 class="h2"><span class="p1"> 1.</span>  Describe your project</h2>
-		    </div>
-		     
-		    <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
-		    	<p class="p">Write a short explanation about your  video or animation project Set your budget</p>
-		    </div>
+		   	</div>
+	   		
+	   		<div class="col-sm-4 col-xs-12">
+					   	
+			    <img src="assets/img/blog2.png" class="img-responsive"/>
+			    
+			    <h2> <span class="aqua"> 2.</span>  Receive proposals</h2>
+			 	<div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2">
+			    	<p>We will send your project to our video makers for free You will receive propsals</p>
+			    </div>
 		
-		   </div>
-		   <!--/-->
-		
-		
-		   <div class="col-md-4 col-sm-4 col-xs-12">
-		    <div class="col-md-12 col-sm-12 col-xs-12 centered">
-		     <img src="assets/img/blog2.png" class="img-responsive"/>
-		    </div>
-		
-		    <div class="col-md-12 col-sm-12 col-xs-12">
-		      <h2 class="h2"><span class="p1"> 2.</span> Receive proposals</h2>
-		     </div>
-		     
-		     <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
-			     <p class="p">We will send your project to our video makers for free You will receive propsals</p>
-		     </div>
-		   </div>
-		
-		   <div class="col-md-4 col-sm-4 col-xs-12">
-		    <div class="col-md-12 col-sm-12 col-xs-12 centered">
-		     <img src="assets/img/blog3.png" class="img-responsive"/>
-		    </div>
-		
-		    <div class="col-md-12 col-sm-12 col-xs-12">
-		      <h2 class="h2"><span class="p1"> 3.</span> Get your video</h2>
-		    </div>
-		     
-		    <div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2  centered">
-		     
-		     <p class="p">Choose your video-maker/animator. They will make your video/animation</p>
-		    </div>
-		
-		   </div>
-		     
-		     
-		   <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center">
-		    <button class="button-3">Get Started Now</button>
-		   </div>
-		  </div><!--/row-->
-  
- </div><!--/container-->
+		   	</div>
+		   	
+		   	<div class="col-sm-4 col-xs-12">
+					   	
+			    <img src="assets/img/blog3.png" class="img-responsive"/>
+			    
+			    <h2> <span class="aqua"> 3. </span>Get your video</h2>
+			 	<div class="col-sm-12 col-xs-8 col-sm-offset-0 col-xs-offset-2">
+			    	 <p>Choose your video-maker/animator. They will make your video/animation</p>
+			    </div>
+			     
+		   	</div>
+		   	
+			<div class="col-xs-12 text-center"><a href="#" class="get_started">Get Started Now</a></div>
+			
+	 </div><!--/container-->
+	</section>
 	
-<div id="gradient-bg">	
-	<div class="container" ><!--container-->
-		<div class="row ">
-			<div class="col-sm-12 col-xs-8 col-xs-offset-2 col-sm-offset-0">
-				<h1>What our customers say</h1>
-			</div>
-			
-			<div class="col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
+	<!-- section testimonials -->
+	<section id="testimonials">
+		
+		<div class="container">
+			<h1>What our customers say</h1>
+			<div class="col-sm-6 col-xs-10 col-xs-offset-1 col-sm-offset-0">
 				
-				<div class="col-xs-1 tab"><img src="assets/img/coma.png"/></div>
-				
-				<div class="col-xs-11">	
-					<p class="light">
-					Before we found Wooshii, we spent over $10,000 on video production with pure garbage being generated. 
-					On Wooshii we spent $1,500 on a video and I think we hit it out of the park. I love Wooshii!
-					</p>
-				</div>
-						
-				<div  class="col-xs-2">
-					<img src="assets/img/patrick.png"/>
+				<div class="col-xs-12">	
+					
+					<blockquote>
+						<p><i class="fa fa-quote-left fa-2x"></i> Before we found Wooshii, we spent over $10,000 on video production with pure garbage being generated. On Wooshii we spent $1,500 on a video and I think we hit it out of the park. I love Wooshii!</p>
+					</blockquote>
+					<div class="col-xs-3"><img src="assets/img/patrick.png"/></div>
+					<div class="col-xs-9 author">Patrick Hankinson, <br/> Founder & CEO, Tether</div>
 					
 				</div>
-						
-						<div  class="col-xs-10">
-							<p class="mike">Patrick Hankinson, <br/> Founder & CEO, Tether</p>
-							
-						</div>
 				
 			</div>
 			
-			<div class="col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
+			<div class="col-sm-6 col-xs-10 col-xs-offset-1 col-sm-offset-0">
 				
-				<div class="col-xs-1 tab"><img src="assets/img/coma.png"/></div>	
+				<div class="col-xs-12">	
+					
+					<blockquote>
+						<p><i class="fa fa-quote-left fa-2x"></i> Before we found Wooshii, we spent over $10,000 on video production with pure garbage being generated. On Wooshii we spent $1,500 on a video and I think we hit it out of the park. I love Wooshii!</p>
+					</blockquote>
+					<div class="col-xs-3"><img src="assets/img/mike.png"/></div>
+					<div class="col-xs-9 author">Mike Leavy,   <br/> Learning Technology Lead at Virgin Media</div>
+					
+				</div>
 				
-				<div class="col-xs-11">
-					<p class="light">
-					Before we found Wooshii, we spent over $10,000 on video production with pure garbage being generated. 
-					On Wooshii we spent $1,500 on a video and I think we hit it out of the park. I love Wooshii!
-					</p>
-					
-				</div>
-					
-						
-				<div  class="col-xs-2">
-					<img src="assets/img/mike.png"/>
-					
-				</div>
-						
-				<div  class="col-xs-10">
-					<p class="mike">Mike Leavy,   <br/> Learning Technology Lead at Virgin Media</p>
-					
-				</div>
-					
 			</div>
 			
 		</div>
-	</div><!--/container-->
-	
-</div>	
-	<div class="container"><!--container-->
-		<div class="row full why_choose"><!--row-->
-			<div class="col-sm-12 col-xs-10 col-xs-offset-1 col-sm-offset-0"> <h1>Why Choose Wooshii</h1> </div>
+		
+	</section>
+		
+	<section id="why_wooshii"><!--container-->
+		<div class="container full why_choose"><!--row-->
+			<h1>Why Choose Wooshii</h1>
 			
 			<div class="row">
 				<div class="col-sm-6 col-sm-push-6 col-xs-12 text-center container_clipboard">
 					<div class="clipboard">
-						<img src="assets/img/clipboard.png" class="img-responsive"/>
+						<img src="assets/img/clipboard.png"/>
 						<div class="clipboard_tick">
 							<ul>
 								<li><img class="wow fadeIn" data-wow-delay="300ms" src="assets/img/tick.png"></li>
@@ -316,7 +259,7 @@
 			<div class="row">
 				<div class="col-sm-6 col-xs-12 text-center conainter_control">
 					<div class="control">
-						<img src="assets/img/quality.png" class="img-responsive"/>
+						<img src="assets/img/quality.png" />
 						<div class="control_controls">
 							<ul>
 								<li class="ctrl1"><img class="wow slide" data-wow-delay="300ms" src="assets/img/control-1.png"></li>
@@ -351,7 +294,7 @@
 			
 			<div class="row">
 				<div class="col-sm-6 col-xs-12 text-center container_safe">
-					<div class="safe"><img src="assets/img/safe.png" class="img-responsive"/></div>
+					<div class="safe"><img src="assets/img/safe.png" /></div>
 					<div class="safe_handle"><img class="wow rotate" data-wow-delay="800ms" src="assets/img/safe-handle.png"></div>
 				</div>
 			
@@ -362,165 +305,163 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center">
-    <button class="button-3">Get Started Now</button>
-   </div>
+			<div class="col-xs-12 text-center"><a href="#" class="get_started">Get Started Now</a></div>
 					
-		</div><!--/row-->
-	</div><!--/container-->
+		</div><!--/container-->
+	</section>
 	
-<div class="bg-vedio" id="sec">	
+<section id="portfolio">	
 	<div class="container" ><!--container-->
-		<div class="row">
-			<div class="col-xs-12">
-				<h1>Recent projects</h1>
-				<h3>See examples of recent projects completed by our community.</h3>
-			</div>
 			
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><!--vedios-->
+		<h1>Recent projects</h1>
+		<h3>See examples of recent projects completed by our community.</h3>
 
-				<div class="col-sm-12 col-xs-10 col-sm-offset-0 col-xs-offset-1"><!--vedios-->
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
-						<div class="recent-projects">
-							<img src="assets/img/1.jpg" class="col-md-12 col-xs-12 nopadding"/>
-							<img class="col-md-12 col-xs-12 nopadding play" src="assets/img/play2.png" />
+			
+		<div class="col-sm-12 col-xs-10 col-sm-offset-0 col-xs-offset-1"><!--vedios-->
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
+					<div class="recent-projects">
+						<img src="assets/img/1.jpg" class="col-md-12 col-xs-12 nopadding"/>
+						<a href=""><img class="col-md-12 col-xs-12 nopadding play" src="assets/img/play2.png" /></a>
+					</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
+							<p>Lorem ipsum dolor sit amet</p>
+							<div class="col-lg-12 nopadding r-user">
+								<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
+									<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
+								</div>
+								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
+									<span class="price"> $3000</span>
+								</div>
+							</div>	
 						</div>
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
-								<p>Lorem ipsum dolor sit amet</p>
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
+					<div class="recent-projects">
+						<img src="assets/img/2.jpg" class="col-md-12 col-xs-12 nopadding"/>
+						<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
+					</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
+							<p>Lorem ipsum dolor sit amet</p>
 								<div class="col-lg-12 nopadding r-user">
 									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
 										<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
 									</div>
 									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
-										<span class="dollor"> $3000</span>
+										<span class="price"> $3000</span>
 									</div>
 								</div>	
-							</div>
-					</div>
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
-						<div class="recent-projects">
-							<img src="assets/img/2.jpg" class="col-md-12 col-xs-12 nopadding"/>
-							<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
 						</div>
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
-								<p>Lorem ipsum dolor sit amet</p>
-									<div class="col-lg-12 nopadding r-user">
-										<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
-											<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
-										</div>
-										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
-											<span class="dollor"> $3000</span>
-										</div>
-									</div>	
-							</div>
-					</div>
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
-						<div class="recent-projects">
-							<img src="assets/img/3.jpg" class="col-md-12 col-xs-12 nopadding"/>
-							<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
-						</div>
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
-								<p>Lorem ipsum dolor sit amet</p>
-									<div class="col-lg-12 nopadding r-user">
-										<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
-											<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
-										</div>
-										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
-											<span class="dollor"> $3000</span>
-										</div>
-									</div>	
-							</div>
-					</div>
-					
+				</div>
 				
-	
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
-						<div class="recent-projects">
-							<img src="assets/img/4.jpg" class="col-md-12 col-xs-12 nopadding"/>
-							<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
-						</div>
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
-								<p>Lorem ipsum dolor sit amet</p>
-									<div class="col-lg-12 nopadding r-user">
-										<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
-											<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
-										</div>
-										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
-											<span class="dollor"> $3000</span>
-										</div>
-									</div>	
-							</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
+					<div class="recent-projects">
+						<img src="assets/img/3.jpg" class="col-md-12 col-xs-12 nopadding"/>
+						<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
 					</div>
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
-						<div class="recent-projects">
-							<img src="assets/img/5.jpg" class="col-md-12 col-xs-12 nopadding"/>
-							<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
+							<p>Lorem ipsum dolor sit amet</p>
+								<div class="col-lg-12 nopadding r-user">
+									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
+										<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
+										<span class="price"> $3000</span>
+									</div>
+								</div>	
 						</div>
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
-								<p>Lorem ipsum dolor sit amet</p>
-									<div class="col-lg-12 nopadding r-user">
-										<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
-											<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
-										</div>
-										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
-											<span class="dollor"> $3000</span>
-										</div>
-									</div>	
-							</div>
-					</div>
-					
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
-						<div class="recent-projects">
-							<img src="assets/img/6.jpg" class="col-md-12 col-xs-12 nopadding nopadding"/>
-							<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
-						</div>
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
-								<p>Lorem ipsum dolor sit amet</p>
-									<div class="col-lg-12 nopadding r-user">
-										<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
-											<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
-										</div>
-										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
-											<span class="dollor"> $3000</span>
-										</div>
-									</div>	
-							</div>
-					</div>
-					
-				</div><!--/vedios-->
-			</div>
-		</div>
-	</div><!--/container-->
-</div>
+				</div>
+				
+			
 
-	<div class="footer_icons">
-		<div class="container logos">
-			<div class="row"><!--row-->
-				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 text-center">
-					<button class="button-3">Get Started Now</button>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
+					<div class="recent-projects">
+						<img src="assets/img/4.jpg" class="col-md-12 col-xs-12 nopadding"/>
+						<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
+					</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
+							<p>Lorem ipsum dolor sit amet</p>
+								<div class="col-lg-12 nopadding r-user">
+									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
+										<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
+										<span class="price"> $3000</span>
+									</div>
+								</div>	
+						</div>
 				</div>
-				<p class="trusted">We are trusted by</p>
-				<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 fcolor">
-					<ul >
-						<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/unilever.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/ebay.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/life.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/emi.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/intel.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/linked.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/mdead.png" class="img-responsive"/></a></li>
-						<li><a href="#"><img src="assets/img/mrichard.png" class="img-responsive"/></a></li>
-					</ul>
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
+					<div class="recent-projects">
+						<img src="assets/img/5.jpg" class="col-md-12 col-xs-12 nopadding"/>
+						<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
+					</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
+							<p>Lorem ipsum dolor sit amet</p>
+								<div class="col-lg-12 nopadding r-user">
+									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
+										<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
+										<span class="price"> $3000</span>
+									</div>
+								</div>	
+						</div>
 				</div>
-			</div>
-		</div>
+				
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 marg">
+					<div class="recent-projects">
+						<img src="assets/img/6.jpg" class="col-md-12 col-xs-12 nopadding nopadding"/>
+						<img class="col-md-12 col-xs-12 play nopadding" src="assets/img/play2.png"/>
+					</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-clip layered-paper">
+							<p>Lorem ipsum dolor sit amet</p>
+								<div class="col-lg-12 nopadding r-user">
+									<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 nopadding">
+										<img class="u-img" src="assets/img/user.png"/><span class="adver">by AidemStudios</span>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding">
+										<span class="price"> $3000</span>
+									</div>
+								</div>	
+						</div>
+				</div>
+				
+			</div><!--/vedios-->
+			
+	</div><!--/container-->
+</section>
+<section id="footer_testimonials">
+	
+	<div class="container logos">
+		
+			
+		<div class="col-xs-12 text-center"><a href="#" class="get_started">Get Started Now</a></div>
+		
+		<div class="trusted">
+			
+			<p>We are trusted by</p>
+			
+				<ul >
+					<li><a href="#"><img src="assets/img/google.png" class="img-responsive"/></a></li>
+					<li><a href="#"><img src="assets/img/unilever.png" class="img-responsive"/></a></li>
+					<li><a href="#"><img src="assets/img/ebay.png" class="img-responsive"/></a></li>
+					<li><a href="#"><img src="assets/img/life.png" class="img-responsive"/></a></li>
+					<li><a href="#"><img src="assets/img/emi.png" class="img-responsive"/></a></li>
+					<li><a href="#"><img src="assets/img/intel.png" class="img-responsive"/></a></li>
+					<li><a href="#"><img src="assets/img/linked.png" class="img-responsive"/></a></li>
+					<li><a href="#"><img src="assets/img/mdead.png" class="img-responsive"/></a></li>
+					<li><a href="#"><img src="assets/img/mrichard.png" class="img-responsive"/></a></li>
+				</ul>
+			
+		
+		</div><!-- end trusted -->
+		
 	</div>
 	
+</section>	
 	
 	<div class="container footer"><!--container-->
 		<div class="row"><!--row-->

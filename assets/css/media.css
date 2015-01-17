@@ -409,9 +409,7 @@
  }
 
 @media (max-width: 480px) {
-	h1{
-		font-size : 24px !important;
-	}
+	h1{ font-size : 24px !important; line-height: 45px;}
 	
 	h3{
 		line-height: 30px;
