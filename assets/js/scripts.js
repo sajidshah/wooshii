@@ -159,15 +159,8 @@
 		  $("html").niceScroll();
 	
 		// Parallax effects
-		jQuery('#home').parallax("100%",0.1);
+		//jQuery('#home').parallax("100%",0.1);
 		
-		jQuery('#sec01').parallax("100%",0.1);
-		jQuery('#sec02').parallax("100%",0.1);
-		//jQuery('#gradient-bg').parallax("100%",0.1);
-		jQuery('#sec04').parallax("100%",0.1);
-		jQuery('#sec05').parallax("100%",0.1);
-		// interior page
-		jQuery('#interior-home').parallax("100%",0.1);
 		
 		// Local Scroll
 		
