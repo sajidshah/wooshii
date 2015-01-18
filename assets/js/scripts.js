@@ -390,8 +390,18 @@
 
 
 $(function(){
-        $("h6 .first").typed({
-            strings: ["Find An Animator Or Video Maker For Your "],
+	
+	$("h6 span.second").typed({
+              strings: ["Explainer", "Demo video", "Product video", "Customer Testimonial"],
+              backDelay: 1500,    
+              typeSpeed: 30,
+              backSpeed: 30,
+              loop: true
+              
+          });
+	
+/*        $("h6 .first").typed({
+            strings: [""],
             typeSpeed: 0,
             callback: function() {
               showThis();
@@ -411,4 +421,6 @@ $(function(){
           });
 
       }
+      */
    });
+   

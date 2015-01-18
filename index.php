@@ -114,7 +114,7 @@
 		<div class="header_content">
 					
 			<h1>Video made easy </h1>
-			<h6 class="capitalize" class="col-sm-12"><span class="first"></span><span class="second"></span></h6>
+			<h6 class="capitalize" class="col-sm-12">Find An Animator Or Video Maker For Your <span class="second"></span></h6>
 	
 			<!-- bootstrap carosuel -->
 			<div class="buttons">
