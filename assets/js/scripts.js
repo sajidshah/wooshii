@@ -13,6 +13,9 @@
 //       might need to adjust the width in some cases.
 
 (function($) {
+	
+	
+	
   var defaults = {
       topSpacing: 0,
       bottomSpacing: 0,
@@ -297,6 +300,8 @@
 		
 			var logo		 = jQuery('#main-menu img').data('logo');
 			var logo_inverse = jQuery('#main-menu img').data('inverse');
+			
+		
 		
 		if(jQuery('#head-page').length > 0) main_menu.css('opacity', '1');
 		
@@ -330,9 +335,18 @@
 			}
 		});
 		
+		$('#main-menu').hover(function(){
+			console.log("man meu");
+			$("#desktop-menu a").css('color','#000000');
+			jQuery("#main-menu img").attr('src',logo_inverse);
+		});	
 		
-	
+	/*	$('#main-menu').mouseleave(function(){
+			$("#desktop-menu a").css('color','#000000');
+			jQuery("#main-menu img").attr('src',logo_inverse);
+		});	
 		
+	*/	
 		// Backtop
 		jQuery('#backtop').click(function() {
 			$('html, body').animate({scrollTop: 0},1000);

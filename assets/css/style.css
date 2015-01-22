@@ -99,7 +99,16 @@
 	.sticky-wrapper {
 		height: auto !important;
 	}
-	
+	#main-menu:hover{
+		background : #FFFFFF;
+		
+	}
+	#main-menu:hover ul li a{
+		color : #000000;
+	}
+	#main-menu:hover ul li:hover{
+		background: #1ac9c7 !important;
+	}
 	#mobile-menu {
 		position: absolute;
 		top: 83px;
